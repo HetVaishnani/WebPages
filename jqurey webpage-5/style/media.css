@@ -1,0 +1,626 @@
+@media(max-width:980px)
+{
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+    header .logo{
+        width: 30%;
+        height: auto;
+        align-self: flex-start;
+        font-family: sans-serif;
+    }
+    header .logo h1{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    header nav{
+        width: 100%;
+        height: auto;
+    }
+    header nav ul{
+        flex-direction: column;
+        height: auto;
+        font-family: sans-serif;
+    }
+    header nav ul li{
+        display: none;
+        font-size: 20px;
+    }
+    header nav ul #btn1{
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+/*----------- home-------- */
+
+    .home{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .home h1{
+        font-size: 45px;
+        top: 20%;
+        color: black;
+    }
+    .home p{
+        left: 36%;
+        top: 45%;
+        margin-right: 0;
+        font-size: 16px;
+    }
+    .home button{
+        width: 20%;
+        height: 50px;
+        font-size: 18px;
+        left: 39%;
+        top: 55%;
+    }
+
+/* -----------welcome-------- */
+
+    .wl{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .wl .wp{
+        width: 100%;
+        height: auto;
+    }
+    .wl .winfo{
+        width: 100%;
+        height: auto;
+    }
+    .wl .winfo button{
+        font-size: 20px;
+        height: 50px;
+    }
+
+/* -----------information---------- */
+
+    .info .i1 i{
+        margin-left: 120px;
+    }
+
+/*------------ pratice--------- */
+
+    .pratice{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .pratice .pinfo{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .pratice .pinfo p{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+    
+    .pratice .picon .pi1 i{
+        margin-left: 105px;
+    }
+
+/* --------------fav------------ */
+
+    .far{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .far .f{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .far .f button{
+        width: 30%;
+        height: 50px;
+        margin-left: 0;
+        font-size: 20px;
+        margin-left: 350px;
+    }
+
+/* -----------recent---------- */
+
+    .recent .ri p{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+    }
+    .recent .ri1{
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+
+
+@media(max-width:720px)
+{
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+    header .logo{
+        width: 30%;
+        height: auto;
+        align-self: flex-start;
+        font-family: sans-serif;
+    }
+    header .logo h1{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    header nav{
+        width: 100%;
+        height: auto;
+    }
+    header nav ul{
+        flex-direction: column;
+        height: auto;
+        font-family: sans-serif;
+    }
+    header nav ul li{
+        display: none;
+        font-size: 20px;
+    }
+    header nav ul #btn1{
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+/*----------- home-------- */
+
+    .home{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .home h1{
+        font-size: 35px;
+        top: 20%;
+        color: black;
+    }
+    .home p{
+        left: 32%;
+        top: 45%;
+        margin-right: 0;
+        font-size: 16px;
+    }
+    .home button{
+        width: 20%;
+        height: 40px;
+        font-size: 15px;
+        left: 40%;
+        top: 55%;
+    }
+
+/* -----------welcome-------- */
+
+    .wl{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .wl .wp{
+        width: 100%;
+        height: auto;
+    }
+    .wl .winfo{
+        width: 100%;
+        height: auto;
+    }
+    .wl .winfo button{
+        font-size: 15px;
+    }
+
+/* ------------information---------- */
+
+    .info{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .info .i1{
+        width: 100%;
+        height: auto;
+    }
+    .info .i1 i{
+        margin-left: 340px;
+    }
+
+/* ---------counter------ */
+
+    .count{
+        width: 100%;
+        height: auto;
+    }
+    .count .parent{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .count .parent .child1 , .child2 , .child3 , .child4{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+/*------------ pratice--------- */
+
+    .pratice{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .pratice .pinfo{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .pratice .pinfo p{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+    .pratice .picon{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .pratice .picon .pi1{
+        width: 100%;
+        height: auto;
+    }
+    .pratice .picon .pi1 i{
+        margin-left: 330px;
+    }
+
+/* --------------fav------------ */
+
+    .far{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .far .f{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .far .f h1{
+        font-size: 35px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .far .f button{
+        width: 30%;
+        height: 40px;
+        margin-left: 0;
+        font-size: 15px;
+        margin-left: 250px;
+    }
+
+/* -----------recent------------ */
+
+    .recent{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .recent .ri{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .recent .ri p{
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+    .recent .rbox{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .recent .ri1{
+        width: 100%;
+        height: auto;
+    }
+
+/* ---------attorneys--------- */
+
+    .attorneys{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .attorneys .ai{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .attorneys .ai p{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+    .attorneys .abox{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .attorneys .ai1{
+        width: 100%;
+        height: auto;
+    }
+
+/* ---------footer-------- */
+
+    footer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    footer .f1{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media(max-width:480px)
+{
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+    header .logo{
+        width: 30%;
+        height: auto;
+        align-self: flex-start;
+        font-family: sans-serif;
+    }
+    header .logo h1{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    header nav{
+        width: 100%;
+        height: auto;
+    }
+    header nav ul{
+        flex-direction: column;
+        height: auto;
+        font-family: sans-serif;
+    }
+    header nav ul li{
+        display: none;
+        font-size: 20px;
+    }
+    header nav ul #btn1{
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+/*----------- home-------- */
+
+    .home{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .home h1{
+        font-size: 25px;
+        top: 10%;
+        color: black;
+    }
+    .home p{
+        left: 22%;
+        top: 30%;
+        margin-right: 0;
+        font-size: 16px;
+    }
+    .home button{
+        width: 20%;
+        height: 40px;
+        font-size: 12px;
+        left: 40%;
+    }
+
+/* -----------welcome-------- */
+
+    .wl{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .wl .wp{
+        width: 100%;
+        height: auto;
+    }
+    .wl .winfo{
+        width: 100%;
+        height: auto;
+    }
+    .wl .winfo button{
+        font-size: 12px;
+    }
+
+/* ------------information---------- */
+
+    .info{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .info .i1{
+        width: 100%;
+        height: auto;
+    }
+    .info .i1 i{
+        margin-left: 220px;
+    }
+
+/* ---------counter------ */
+
+    .count{
+        width: 100%;
+        height: auto;
+    }
+    .count .parent{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .count .parent .child1 , .child2 , .child3 , .child4{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+/*------------ pratice--------- */
+
+    .pratice{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .pratice .pinfo{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .pratice .pinfo p{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+    .pratice .picon{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .pratice .picon .pi1{
+        width: 100%;
+        height: auto;
+    }
+    .pratice .picon .pi1 i{
+        margin-left: 210px;
+    }
+
+/* ---------------fav------------ */
+
+    .far{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .far .f{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .far .f h1{
+        font-size: 35px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .far .f button{
+        width: 30%;
+        height: 40px;
+        margin-left: 0;
+        font-size: 15px;
+        margin-left: 160px;
+    }
+
+/* -----------recent------------ */
+
+    .recent{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .recent .ri{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .recent .ri p{
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+    .recent .rbox{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .recent .ri1{
+        width: 100%;
+        height: auto;
+    }
+
+/* ---------attorneys--------- */
+
+    .attorneys{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .attorneys .ai{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .attorneys .ai p{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+    .attorneys .abox{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .attorneys .ai1{
+        width: 100%;
+        height: auto;
+    }
+
+/* ---------footer-------- */
+
+    footer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    footer .f1{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+

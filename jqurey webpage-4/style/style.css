@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .logo h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #32C36C;
+}
+header nav{
+    width: 50%;
+    height: 100%;
+}
+header nav ul{
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav ul li{
+    list-style: none;
+    
+}
+header nav ul li a{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+header nav ul #btn1{
+    display: none;
+}
+
+.home{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.home h1{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white    ;
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: start;
+    font-weight: bold;
+}
+.home p{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-right: 500px;
+    text-align: start;
+}
+.home button{
+    position: absolute;
+    width: 10%;
+    height: 50px;
+    top: 70%;
+    left: 10%;
+    border-radius: 50px;
+    background-color: #32C36C;
+    color: white;
+    font-family: sans-serif;
+    font-size: 19px;
+    border: none;
+}
+
+.count{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.count .parent{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+}
+.count .parent .child1 , .child2 , .child3 , .child4{
+    width: 23%;
+    height: 100%;
+    text-align: center;
+}
+.count .parent .child1 i{
+    font-size: 50px;
+    margin-top: 30px;
+    
+}
+.count .parent .child1 span{
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+.count .parent .child1 .para h3{
+    font-size: 40px;
+    font-family: sans-serif;
+    /* margin-top: 20px; */
+    
+}
+.count .parent .child1 p{
+    margin-left: 72px;
+    font-size: 16px;
+    color: gray;
+    margin-top: 20px;
+    text-align: start;
+}
+.count .parent .child2 i{
+    font-size: 50px;
+    margin-top: 30px;
+    
+}
+.count .parent .child2 span{
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+.count .parent .child2 .para h3{
+    font-size: 40px;
+    font-family: sans-serif;
+    /* margin-top: 20px; */
+    
+}
+.count .parent .child2 p{
+    margin-left: 95px;
+    font-size: 16px;
+    color: gray;
+    margin-top: 20px;
+    text-align: start;
+}
+.count .parent .child3 i{
+    font-size: 50px;
+    margin-top: 30px;
+    
+}
+.count .parent .child3 span{
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+.count .parent .child3 .para h3{
+    font-size: 40px;
+    font-family: sans-serif;
+    /* margin-top: 20px; */
+    
+}
+.count .parent .child3 p{
+    margin-left: 95px;
+    font-size: 16px;
+    color: gray;
+    margin-top: 20px;
+    text-align: start;
+}
+.count .parent .child4 i{
+    font-size: 50px;
+    margin-top: 30px;
+    
+}
+.count .parent .child4 span{
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+.count .parent .child4 .para h3{
+    font-size: 40px;
+    font-family: sans-serif;
+    /* margin-top: 20px; */
+}
+.count .parent .child4 p{
+    margin-left: 85px;
+    font-size: 16px;
+    color: gray;
+    margin-top: 20px;
+    text-align: start;
+    margin-right: 35px;
+}
+
+.aboutus{
+    width: 100%;
+    height: 600px;
+    ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutus .pic{
+    width: 50%;
+    height: 600px;
+}
+.aboutus .pic img{
+    width: 100%;
+    height: 100%;
+}
+.aboutus .info{
+    width: 50%;
+    height: 600px;
+}
+.aboutus .info h3{
+    font-family: sans-serif;
+    color: #32C36C;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.aboutus .info h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.aboutus .info p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: gray;
+    margin-right: 50px;
+}
+.aboutus .info h4{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: lighter;
+    color: gray;
+    /* margin-right: 50px; */
+}
+.aboutus .info button{
+    width: 20%;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: #32C36C;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.our{
+    width: 100%;
+    height: 1200px;
+}
+.our .oi{
+    width: 100%;
+    height: 200px;
+}
+.our .oi h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: #32C36C;
+    margin-top: 50px;
+}
+.our .oi h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.our .opic{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.our .opic .pic1{
+    width: 30%;
+    height: 450px;
+    border-radius: 15px;
+    transition: 0.5s;
+
+}
+.our .opic .pic1:hover{
+    box-shadow: 7px 7px lightgrey;
+}
+.our .opic .pic1 img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.our .opic .pic1 h2{
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.our .opic .pic1 p{
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+.our .opic .pic1 h4{
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 17px;
+    color: #32C36C;
+    /* margin-right: 100px; */
+}
+.cu{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cu .cinfo{ 
+    width: 50%;
+    height: 600px;
+}
+.cu .cinfo h3{
+    margin-top: 70px;
+    margin-left: 50px;
+    color: #32C36C;
+}
+.cu .cinfo h1{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 45px;
+    margin-right: 50px;
+}
+.cu .cinfo p{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.cu .cinfo button{
+    width: 20%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 50px;
+    background-color: #32C36C;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.cu .cpic{ 
+    width: 50%;
+    height: 600px;
+    ;
+}
+.cu .cpic img{
+    width: 100%;
+    height: 100%;
+}
+.work{
+    width: 100%;
+    height: 1200px;
+}
+.work .wi{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.work .wi h3{
+    font-family: sans-serif;
+    color: #32C36C;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.work .wi h1{
+    font-family: sans-serif;
+    font-size: 45px;
+    margin-top: 20px;
+}
+.work .wpic{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.work .wpic .wp1{
+    width: 30%;
+    height: 450px;
+    border-radius: 15px;
+}
+.work .wpic .wp1:hover{
+    box-shadow: 7px 7px lightgrey;
+}
+.work .wpic .wp1 img{
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+}
+.work .wpic .wp1 h4{
+    text-align: start;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #32C36C;
+}
+.work .wpic .wp1 h2{
+    text-align: start;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    /* color: #32C36C; */
+}
+.team{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.team .ti{
+    width: 100%;
+    height: 200px;
+}
+.team .ti h3{
+    text-align: center;
+    color: #32C36C;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.team .ti h1{
+    text-align: center;
+    /* color: #32C36C; */
+    margin-top: 20px;
+    font-size: 50px;
+}
+.team .tp{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.team .tp .t1{
+    width: 25%;
+    height: 450px;
+}
+.team .tp .t1 img{
+    width: 100%;
+    height: 75%;
+    border-radius: 10px 50px 0px 0px;
+}
+.team .tp .t1 h2{
+    font-size: 30px;
+    margin-top:20px;
+    margin-left: 50px;  
+}
+.team .tp .t1 h4{
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: gray;  
+}
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #1A2A36;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .f1{
+    width: 23%;
+    height: 400px;
+}
+footer .f1 h2{
+    margin-top: 45px;
+    margin-left: 30px;
+    font-size: 25px;
+    color: white;
+}
+footer .f1 h3{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+footer .f1 p{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+    margin-right: 30px;
+}
+footer .f1 input{
+    width: 70%;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+footer .f1 button{
+    width: 30%;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: #32C36C;
+    color: white;
+    border: none;
+    /* padding-left: 20px; */
+}
+footer .f2{
+    width: 23%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer .f2 h2{
+    width: 100%;
+    margin-top: 45px;
+    margin-left: 30px;
+    font-size: 25px;
+    color: white;
+}
+footer .f2 .g1{
+    width: 30%;
+    height: 100px;
+}
+footer .f2 .g1 img{
+    width: 100%;
+    height: 100%;
+}
