@@ -1,0 +1,473 @@
+@media(max-width:980px)
+{
+/*------- footer------ */
+
+    footer{
+        width: 100%;
+        height: auto;
+        /* flex-direction: column; */
+    }
+
+/*-------- summer----- */
+
+    .su{
+        width: 100%;
+        height: auto;
+    }
+
+    .su .s{
+        width: 100%;
+        height: auto;
+    }
+
+    .su .s h1{
+        font-size: 40px;
+        top: 7%;
+        left: 5%;
+    }
+
+    .su .s p{
+        font-size: 20px;
+        top: 40%;
+        left: 2%;
+    }
+
+    .su .s button{
+        width: 20%;
+        height: 50px;
+        font-size: 20px;
+        top: 65%;
+        left: 8%;
+    }
+
+
+/*----------- house------- */
+
+    .house{
+        width: 100%;
+        height: auto;
+    }
+    .house .h{
+        width: 100%;
+        height: auto;
+        /* flex-direction: column; */
+    }
+    
+/* -----------new collection--------- */
+
+    .new{
+        width: 100%;
+        height: auto;
+        /* flex-direction: column; */
+    }
+
+
+/* ---------look------- */
+
+    .look{
+        width: 100%;
+        height: auto;
+    }
+
+    .look .looks{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+
+/* -------  home------ */
+
+    .home{
+        width: 100%;
+        height: auto;
+    }
+
+    .home h1{
+        font-size: 45px;
+        font-weight: bold;
+        top: 5%;
+        left: 5%;
+    }
+
+    .home h4{
+        font-size: 20px;
+        font-weight: bold;
+        top: 40%;
+        left: 5%;
+    }
+
+    .home button{
+        width: 15%;
+        height: 40px;
+        font-size: 17px;
+        left: 5%;
+    }
+
+/*-------- header------ */
+
+    header{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    header .logo{
+        width: 40%;
+        height: auto;
+    }
+    
+    header nav{
+        width: 100%;
+        height: auto;
+    }
+
+    header .icon{
+        width: 40%;
+        height: auto;
+    }
+}
+
+
+@media(max-width:720px)
+{
+
+/*------- footer------ */
+
+    footer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    footer .f{
+        width: 100%;
+        height: auto;
+    }
+
+/*-------- summer----- */
+
+    .su{
+        width: 100%;
+        height: auto;
+    }
+
+    .su .s{
+        width: 100%;
+        height: auto;
+    }
+
+    .su .s h1{
+        font-size: 30px;
+        top: 7%;
+        left: 3%;
+    }
+
+    .su .s p{
+        font-size: 14px;
+        top: 40%;
+        left: 2%;
+    }
+
+    .su .s button{
+        width: 20%;
+        height: 30px;
+        font-size: 10px;
+        top: 65%;
+        left: 8%;
+    }
+
+/*----------- house------- */
+
+    .house{
+        width: 100%;
+        height: auto;
+    }
+    .house .h{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .house .h h1{
+        font-size: 30px;
+    }
+
+    .house .h .h1{
+        width: 100%;
+        height: auto;
+    }
+
+/* -----------new collection--------- */
+
+    .new{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .new .nw1{
+        width: 100%;
+        height: auto;
+    }
+
+    .new .nw1 .nw{
+        width: 100%;
+        height: auto;
+    }
+
+    .new .nw2{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+/* ---------look------- */
+
+    .look{
+        width: 100%;
+        height: auto;
+    }
+
+    .look .looks{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .look .looks h1{
+        font-size: 25px;
+    }
+
+    .look .looks .l1{
+        width: 100%;
+        height: auto;
+    }
+
+    .look .looks .l2{
+        width: 100%;
+        height: auto;
+    }
+
+/* -------  home------ */
+
+    .home{
+        width: 100%;
+        height: auto;
+    }
+
+    .home h1{
+        font-size: 35px;
+        font-weight: bold;
+        top: 5%;
+        left: 5%;
+    }
+
+    .home h4{
+        font-size: 16px;
+        font-weight: bold;
+        top: 40%;
+        left: 5%;
+    }
+
+    .home button{
+        width: 15%;
+        height: 35px;
+        font-size: 15px;
+        left: 5%;
+    }
+
+/*-------- header------ */
+
+    header{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    header .logo{
+        width: 40%;
+        height: auto;
+    }
+    
+    header nav{
+        width: 100%;
+        height: auto;
+    }
+
+    header .icon{
+        width: 40%;
+        height: auto;
+    }
+}
+
+
+@media(max-width:480px)
+{
+/*------- footer------ */
+
+    footer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    footer .f{
+        width: 100%;
+        height: auto;
+    }
+
+/*-------- summer----- */
+
+    .su{
+        width: 100%;
+        height: auto;
+    }
+
+    .su .s{
+        width: 100%;
+        height: auto;
+    }
+
+    .su .s h1{
+        font-size: 20px;
+        top: 3%;
+        left: 3%;
+    }
+
+    .su .s p{
+        font-size: 10px;
+        top: 40%;
+        left: 2%;
+    }
+
+    .su .s button{
+        width: 20%;
+        height: 30px;
+        font-size: 10px;
+        top: 65%;
+        left: 10%;
+    }
+
+/*----------- house------- */
+
+    .house{
+        width: 100%;
+        height: auto;
+    }
+    .house .h{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .house .h h1{
+        font-size: 30px;
+    }
+
+    .house .h .h1{
+        width: 100%;
+        height: auto;
+    }
+
+/* -----------new collection--------- */
+
+    .new{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .new .nw1{
+        width: 100%;
+        height: auto;
+    }
+
+    .new .nw1 .nw{
+        width: 100%;
+        height: auto;
+    }
+
+    .new .nw2{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+/* ---------look------- */
+
+    .look{
+        width: 100%;
+        height: auto;
+    }
+
+    .look .looks{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .look .looks h1{
+        font-size: 25px;
+    }
+
+    .look .looks .l1{
+        width: 100%;
+        height: auto;
+    }
+
+    .look .looks .l2{
+        width: 100%;
+        height: auto;
+    }
+
+/* -------  home------ */
+
+    .home{
+        width: 100%;
+        height: auto;
+    }
+
+    .home h1{
+        font-size: 25px;
+        font-weight: bold;
+        top: 5%;
+        left: 5%;
+    }
+
+    .home h4{
+        font-size: 10px;
+        font-weight: bold;
+        top: 40%;
+        left: 5%;
+    }
+
+    .home button{
+        width: 20%;
+        height: 30px;
+        font-size: 13px;
+        left: 5%;
+    }
+
+/*-------- header------ */
+
+    header{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    header .logo{
+        width: 40%;
+        height: auto;
+    }
+    
+    header nav{
+        width: 100%;
+        height: auto;
+    }
+
+    header .icon{
+        width: 40%;
+        height: auto;
+    }
+}
