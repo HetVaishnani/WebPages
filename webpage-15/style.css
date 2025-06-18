@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid;  */
+    background-color: #212529; 
+    position: sticky;
+    top: 0;
+}
+header .header1{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid; */
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .header1 .icon{
+    width: 20%;
+    height: 100px;
+    /* border: 1px solid; */
+}
+header .header1 .icon .fa-facebook{
+    font-size: 20px;
+    padding-top: 35px;
+    padding-left: 25px;
+}
+header .header1 .icon .fa-instagram{
+    font-size: 20px;
+    padding-left: 25px;
+
+}
+header .header1 .icon .fa-twitter{
+    font-size: 20px;
+    padding-left: 25px;
+
+}
+header .header1 .logo{
+    width: 20%;
+    height: 100px;
+    /* border: 1px solid; */
+}
+header .header1 .logo{
+    text-align: center;
+    padding-top: 20px;
+}
+header .header1 .butt{
+    width: 20%;
+    height: 100px;
+    /* border: 1px solid; */
+}
+header .header1 .butt button{
+    width: 70%;
+    height: 50px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid #E5BF4A;
+    color: #E5BF4A;
+    margin-top: 25px;
+    margin-left: 50px;
+
+}
+header .header2{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .header2 nav{
+    width: 50%;
+    height: 100px;
+    /* border: 1px solid; */
+}
+header .header2 nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+header .header2 nav ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section .home{
+    width: 100%;
+    height: 650px;
+    /* border: 1px solid; */
+    /* display: flex; */
+    position: relative;
+}
+section .home img{
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+}
+section .homes{
+    width: 35%;
+    height: 500px;
+    /* border: 1px solid; */
+    position: absolute;
+    top: 12%;
+    left: 10%;
+}
+section .homes h1{
+    font-size: 55px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 60px;
+}
+section .home button{
+    width: 30%;
+    height: 50px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid #E5BF4A;
+    background-color: #E5BF4A;
+    margin-top: 100px;
+    transition: 2s;
+}
+section .home button:hover{
+    background-color: transparent;
+    border: 1px solid #E5BF4A;
+    color: #E5BF4A;
+}
+section .eat{
+    width: 100%;
+    height: 650px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212529;
+    
+}
+section .eat .e{
+    width: 70%;
+    height: 500px;
+    /* border: 1px solid; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section .eat .e h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+section .eat .e .e1{
+    width: 45%;
+    height: 400px;
+    /* border: 1px solid; */
+}
+section .eat .e .e1 h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #E5BF4A;
+    margin-top: 20px;
+    font-size: 20px;
+}
+section .eat .e .e1 p{
+    margin-top: 20px;
+    font-size: 17px;
+    color: white;
+}
+section .eat .e .e2{
+    width: 45%;
+    height: 400px;
+    /* border: 1px solid; */
+}
+section .eat .e .e2 img{
+    width: 100%;
+    height: 100%;
+}
+section .cakes{
+    width: 100%;
+    height: 550px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #212529;
+}
+section .cake{
+    width: 80%;
+    height: 500px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+section .cake .c1{
+    width: 30%;
+    height: 450px;
+    /* border: 1px solid; */
+}
+section .cake .c1 img{
+    width: 100%;
+    height: 80%;
+}
+section .cake .c1 h1{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+section .cake .c1 p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #E5BF4A;
+    margin-top: 10px;
+}
+
+section .cake .c2{
+    width: 30%;
+    height: 450px;
+    /* border: 1px solid; */
+}
+section .cake .c2 img{
+    width: 100%;
+    height: 80%;
+}
+section .cake .c2 h1{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+section .cake .c2 p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #E5BF4A;
+    margin-top: 10px;
+}
+section .cake .c3{
+    width: 30%;
+    height: 450px;
+    /* border: 1px solid; */
+}
+section .cake .c3 img{
+    width: 100%;
+    height: 80%;
+}
+section .cake .c3 h1{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+section .cake .c3 p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #E5BF4A;
+    margin-top: 10px;
+}
+section .video{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+}
+section .video .iv{
+    width: 70%;
+    height: 550px;
+    /* border: 1px solid; */
+    margin-top: 30px;
+}
+section .video .iv iframe{
+    width: 100%;
+    height: 100%;
+}
+section .food{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid; */
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .food .fl{
+    width: 80%;
+    height: 500px;
+    /* border: 1px solid; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+section .food .fl h1{
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+}
+section .food .fl .f1{
+    width: 33.33%;
+    height: 400px;
+    border: 1px solid white;
+    border-left: 0;  
+}
+section .food .fl .f1 .fa-star{
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+section .food .fl .f1 p{
+    font-size: 25px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+section .food .fl .f1 img{
+    margin-top:50px;
+    margin-left: 20px;
+}
+section .food .fl .f1 h3{
+    color: white;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: 20px;
+}
+section .food .fl .f2{
+    width: 33.33%;
+    height: 400px;
+    border: 1px solid white;
+}
+section .food .fl .f2 .fa-star{
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+section .food .fl .f2 p{
+    font-size: 25px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+section .food .fl .f2 img{
+    margin-top:50px;
+    margin-left: 20px;
+}
+section .food .fl .f2 h3{
+    color: white;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: 20px;
+}
+section .food .fl .f3{
+    width: 33.33%;
+    height: 400px;
+    border: 1px solid white;
+    border-right: 0;
+}
+section .food .fl .f3 .fa-star{
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+section .food .fl .f3 p{
+    font-size: 25px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+section .food .fl .f3 img{
+    margin-top:50px;
+    margin-left: 20px;
+}
+section .food .fl .f3 h3{
+    color: white;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: 20px;
+}
+section .our{
+    width: 100%;
+    height: 550px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+
+}
+section .our .ob{
+    width: 90%;
+    height: 500px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section .our .ob h1{
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+section .our .ob .o1{
+    width: 25%;
+    height: 350px;
+    /* border: 1px solid; */
+}
+section .our .ob .o1 img{
+    width: 100%;
+    height: 100%;
+}
+section .our .ob .o2{
+    width: 25%;
+    height: 350px;
+    border: 1px solid white;
+    border-left: 0;
+}
+section .our .ob .o2 h2{
+    font-size: 25px;
+    color: #E5BF4A;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+section .our .ob .o2 p{
+    font-size: 16px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+section .our .ob .o2 h3{
+    font-size: 16px;
+    color: #E5BF4A;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: lighter;
+}
+section .our .ob .o3{
+    width: 25%;
+    height: 350px;
+    /* border: 1px solid; */
+}
+section .our .ob .o3 img{
+    width: 100%;
+    height: 100%;
+}
+section .our .ob .o4{
+    width: 25%;
+    height: 350px;
+    border: 1px solid white;
+    border-left: 0;
+}
+section .our .ob .o4 h2{
+    font-size: 25px;
+    color: #E5BF4A;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+section .our .ob .o4 p{
+    font-size: 16px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+section .our .ob .o4 h3{
+    font-size: 16px;
+    color: #E5BF4A;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: lighter;
+}
+section .follow{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid; */
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .follow .f{
+    width: 80%;
+    height: 500px;
+    /* border: 1px solid; */
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section .follow .f h1{
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+section .follow .f .bu{
+    width: 100%;
+    height: 50px;
+}
+section .follow .f .bu button{
+    width: 15%;
+    height: 50px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid #E5BF4A;
+    transition: 2s;
+    color: #E5BF4A;
+}
+section .follow .f .i1{
+    width: 22%;
+    height: 250px;
+    /* border: 1px solid; */
+}
+section .follow .f .i1 img{
+    width: 100%;
+    height: 100%;
+}
+section .follow .f .i2{
+    width: 22%;
+    height: 250px;
+    /* border: 1px solid; */
+}
+section .follow .f .i2 img{
+    width: 100%;
+    height: 100%;
+}
+section .follow .f .i3{
+    width: 22%;
+    height: 250px;
+    /* border: 1px solid; */
+}
+section .follow .f .i3 img{
+    width: 100%;
+    height: 100%;
+}
+section .follow .f .i4{
+    width: 22%;
+    height: 250px;
+    /* border: 1px solid; */
+}
+section .follow .f .i4 img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    width: 100%;
+    height: 550px;
+    /* border: 1px solid; */
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .f{
+    width: 80%;
+    height: 500px;
+    /* border: 1px solid; */
+    /* background-color: #212529; */
+}
+footer .f .f1{
+    width: 100%;
+    height: 100px;
+    border: 1px solid white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #212529; */
+}
+footer .f .f1 nav{
+    width: 50%;
+    height: 100px;
+    border: 1px solid white;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+footer .f .f1 nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+footer .f .f1 nav ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer .f .f2{
+    width: 100%;
+    height: 350px;
+    border: 1px solid white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .f .f2 .fo1{
+    width: 30%;
+    height: 300px;
+}
+footer .f .f2 .fo1 p{
+    font-size: 17px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+footer .f .f2 .fo1 button{
+    width: 25%;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+footer .f .f2 .fo2{
+    width: 30%;
+    height: 300px;
+}
+footer .f .f2 .fo2 .fa-location-arrow{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+footer .f .f2 .fo2 h1{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #E5BF4A;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+footer .f .f2 .fo2 p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+footer .f .f2 .fo3{
+    width: 30%;
+    height: 300px;
+}
+footer .f .f2 .fo3 .fa-phone{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+footer .f .f2 .fo3 h1{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #E5BF4A;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+footer .f .f2 .fo3 p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
