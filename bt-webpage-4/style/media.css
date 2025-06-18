@@ -1,0 +1,160 @@
+@media(max-width:1200px)
+{
+    #btn6{
+    
+        font-size: 10px;
+    }    
+}
+
+@media(max-width:992px)
+{
+    nav{
+        font-size: 13px;
+    }
+
+    #home{
+        height: auto;
+    }
+    .info{
+        margin-left: 50px;
+    }
+    .info h4{
+        font-size: 20px;
+    }
+    .info h1{
+        font-size: 50px;
+    }
+    #services{
+        height: 750px;
+    }
+    #price{
+        height: auto;
+    }
+    #btn6{
+    
+        font-size: 10px;
+    }
+}
+
+@media(max-width:768px)
+{
+    #home{
+        height: auto;
+    }
+    .info{
+        margin-left: 50px;
+    }
+    .info h4{
+        font-size: 20px;
+    }
+    .info h1{
+        font-size: 50px;
+    }
+    #services{
+        height: 1200px;
+    }
+    #do{
+        height: auto;
+        margin-top: 0px;
+    }
+    .d{
+        height: auto;
+        flex-direction: column;
+        /* width: 50%; */
+    }
+    .d .pic1{
+        width: 100%;
+        height: auto;
+    }
+    #price{
+        height: auto;
+    }
+    footer{
+        height: auto;
+    }
+}
+
+
+@media(max-width:576px)
+{
+    #home{
+        height: auto;
+    }
+    .info{
+        margin-left: 20px;
+    }
+    .info h4{
+        font-size: 20px;
+    }
+    .info h1{
+        font-size: 50px;
+    }
+    #services{
+        height: 1200px;
+    }
+    #do{
+        height: auto;
+        margin-top: 0px;
+    }
+    .d{
+        height: auto;
+        flex-direction: column;
+        /* width: 50%; */
+    }
+    .d .pic1{
+        width: 100%;
+        height: auto;
+    }
+    #price{
+        height: auto;
+    }
+    #cup{
+        height: auto;
+    }
+    footer{
+        height: auto;
+    }
+}
+
+
+@media(max-width:480px)
+{
+    #home{
+        height: auto;
+    }
+    .info{
+        margin-left: 20px;
+    }
+    .info h4{
+        font-size: 20px;
+    }
+    .info h1{
+        font-size: 50px;
+    }
+    #services{
+        height: 1200px;
+    }
+    #do{
+        height: auto;
+        margin-top: 0px;
+    }
+    .d{
+        height: auto;
+        flex-direction: column;
+        /* width: 50%; */
+    }
+    .d .pic1{
+        width: 100%;
+        height: auto;
+    }
+    #price{
+        height: auto;
+    }
+    #cup{
+        height: auto;
+    }
+    footer{
+        height: auto;
+    }
+
+}
