@@ -1,0 +1,97 @@
+#btn1{
+    height: 45px;
+    background-color: #009DFF;
+    color: white;
+}
+#btn1:hover{
+    background-color: white;
+    color: #009DFF;
+    border: 1px solid #009DFF;
+}
+#home{
+    height: 700px;
+    background: url(../image/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#htext{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+#home p{
+    font-size: 20px;
+}
+#btn2{
+    width: 20%;
+    height: 55px;
+    border: 1px solid #009DFF;
+    background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+    color: white;
+}
+#btn2:hover{
+    background: white;
+    color: #009DFF;
+}
+#btn3{
+    width: 50%;
+    height: 40px;
+    border: 1px solid white;
+}
+#s1{
+    background-color: #83C4FF;
+}
+#s2{
+    background-color: #5db2ff;
+}
+#s3{
+    background-color: #83C4FF;
+}
+#docmed{
+    margin-top: 50px;
+    position: relative;
+}
+#p2{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+#dtext{
+    margin-top: 100px;
+}
+#btn4{
+    width: 20%;
+    height: 40px;
+    border: 1px solid #009DFF;
+    margin-top: 20px;
+}
+#departments{
+    height: 1250px;
+    background-color: #F5FBFF;
+    margin-top: 150px;
+}
+#btn5{
+    color: #009DFF;
+}
+#test{
+
+    height: 300px;
+    background: url(/image/2\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#family{
+    margin-top: 50px;
+}
+#ftext{
+    margin-top: 50px;
+}
+#doctor{
+    margin-top: 200px;
+}
+footer{
+    height: 500px;
+    background-color: #1F1F1F;
+    margin-top: 50px;
+}

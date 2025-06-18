@@ -1,0 +1,130 @@
+@media(max-width:992px)
+{
+    #docmed #dtext{
+        margin-top:0px;        
+    }
+    #btn4{
+        width: 30%;
+    }
+    #docmed{
+        margin-top: 50px;
+        position: relative;
+    }
+    #p2{
+        position: absolute;
+        top: 20%;
+        left: 12%;
+    }   
+}
+
+@media(max-width:768px)
+{
+    #home{
+        height: auto;
+    }  
+    #home h1{
+        font-size: 40px;
+    }
+    #home p{
+        font-size: 16px;
+    }
+    #htext{
+        margin-top: 50px;
+        margin-left: 20px;
+    }  
+    #btn2{
+        width: 20%;
+        height: auto;
+        font-size: 13px;
+    }
+    #docmed #dtext{
+        margin-top:400px;        
+    }
+    #btn4{
+        width: 30%;
+    }
+    #docmed{
+        margin-top: 50px;
+        position: relative;
+    }
+    #p2{
+        position: absolute;
+        top: 20%;
+        left: 40%;
+    }
+    #departments{
+        height: auto;
+    }
+    footer{
+        height: auto;
+    }
+}
+
+@media(max-width:576px)
+{
+    #home{
+        height: auto;
+    }  
+    #home h1{
+        font-size: 40px;
+    }
+    #home p{
+        font-size: 16px;
+    }
+    #htext{
+        margin-top: 50px;
+        margin-left: 20px;
+    }  
+    #btn2{
+        width: 30%;
+        height: auto;
+        font-size: 10px;
+    }
+    #docmed #dtext{
+        margin-top:400px;        
+    }
+    #btn4{
+        width: 30%;
+    }
+    #departments{
+        height: auto;
+    }
+    footer{
+        height: auto;
+    }
+}
+
+
+@media(max-width:480px)
+{
+    #home{
+        height: auto;
+    }  
+    #home h1{
+        font-size: 40px;
+    }
+    #home p{
+        font-size: 16px;
+    }
+    #htext{
+        margin-top: 50px;
+        margin-left: 20px;
+    }  
+    #btn2{
+        width: 30%;
+        height: auto;
+        font-size: 10px;
+    }
+    #docmed #dtext{
+        margin-top:400px;        
+    }
+    #btn4{
+        width: 30%;
+    }
+    #departments{
+        height: auto;
+    }
+    footer{
+        height: auto;
+    }
+}
