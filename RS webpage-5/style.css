@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .logo{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header nav{
+    width: 65%;
+    height: 100%;
+}
+header nav ul{
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+header nav ul li a:hover{
+    color: red;
+}
+header .icon{
+    width: 15%;
+    height: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+.home{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.home img{
+    width: 100%;
+    height: 100%;
+}
+.home h3{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+.home h1{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    font-size: 80px;
+    font-family: sans-serif;
+    color: white;
+}
+.home button{
+    width: 10%;
+    height: 50px;
+    position: absolute;
+    top: 60%;
+    left: 47%;
+    border-radius: 50px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 16px;
+}
+.home button:hover{
+    background-color: red;
+    color: white;
+}
+.product{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product .pro{
+    width: 80%;
+    height: 950px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product .pro .pro1{
+    width: 30%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.product .pro .pro1 .p1{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.product .pro .pro1 .p1 img{
+    width: 100%;
+    height: 100%;
+}
+.product .pro .pro1 .p1 button{
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    font-size: 17px;
+    background-color: white;
+    border: none;
+}
+.product .pro .pro1 .p1 button:hover{
+    background-color: red;
+    color: white;
+}
+.product .pro .pro1 .p2{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.product .pro .pro1 .p2 button{
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    font-size: 17px;
+    background-color: white;
+    border: none;
+}
+.product .pro .pro1 .p2 button:hover{
+    background-color: red;
+    color: white;
+}
+.product .pro .pro1 .p2 img{
+    width: 100%;
+    height: 100%;
+}
+.product .pro .pro2{
+    width: 30%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.product .pro .pro2 .p1{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.product .pro .pro2 .p1 img{
+    width: 100%;
+    height: 100%;
+}
+.product .pro .pro2 .p1 button{
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    font-size: 17px;
+    background-color: white;
+    border: none;
+}
+.product .pro .pro2 .p1 button:hover{
+    background-color: red;
+    color: white;
+}
+.product .pro .pro2 .p2{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.product .pro .pro2 .p2 img{
+    width: 100%;
+    height: 100%;
+}
+.product .pro .pro2 .p2 button{
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    font-size: 17px;
+    background-color: white;
+    border: none;
+}
+.product .pro .pro2 .p2 button:hover{
+    background-color: red;
+    color: white;
+}
+.product .pro .pro3{
+    width: 30%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.product .pro .pro3 .p1{
+    width: 100%;
+    height: 500px;
+    
+    position: relative;
+}
+.product .pro .pro3 .p1 img{
+    width: 100%;
+    height: 100%;
+}
+.product .pro .pro3 .p1 button{
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    font-size: 17px;
+    background-color: white;
+    border: none;
+}
+.product .pro .pro3 .p1 button:hover{
+    background-color: red;
+    color: white;
+}
+.product .pro .pro3 .p2{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    text-align: center;
+}
+.product .pro .pro3 .p2 img{
+    width: 100%;
+    height: 100%;
+}
+.product .pro .pro3 .p2 h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+.product .pro .pro3 .p2 p{
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 40%;
+}
+.product .pro .pro3 .p2 button{
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    border-radius: 50px;
+    bottom: 20%;
+    left: 30%;
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.product .pro .pro3 .p2 button:hover{
+    background-color: red;
+}
+.fp{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fp .fproduct{
+    width: 85%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fp .fproduct h1{
+    width: 100%;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+.fp .fproduct .fp1{
+    width: 23%;
+    height: 500px;
+    
+}
+.fp .fproduct .fp1 img{
+    width: 100%;
+}
+.fp .fproduct .fp1 h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.fp .fproduct .fp1 h4{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.look{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.look .lb{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.look .lb .lb1{
+    width: 45%;
+    height: 500px;
+    position: relative;
+}
+.look .lb .lb1 img{
+    width: 100%;
+    height: 100%;
+}
+.look .lb .lb1 h3{
+    position: absolute;
+    top: 37%;
+    left: 35%;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+.look .lb .lb1 h2{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+.look .lb .lb2{
+    width: 45%;
+    height: 500px;
+    position: relative;
+}
+.look .lb .lb2 img{
+    width: 100%;
+    height: 100%;
+}
+.look .lb .lb2 h3{
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    font-size: 25px;
+    /* color: white; */
+    font-family: sans-serif;
+}
+.look .lb .lb2 h4{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    font-size: 20px;
+    /* color: white; */
+    font-family: sans-serif;
+}
+.blog{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.blog .b{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.blog .b h1{
+    width: 100%;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.blog .b .b1{
+    width: 30%;
+    height: 450px;
+}
+.blog .b .b1 img{
+    width: 100%;
+}
+.blog .b .b1 h2{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.blog .b .b1 h2:hover{
+    color: red;
+}
+.blog .b .b1 h4{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+.blog .b .b1 h4:hover{
+    color: red;
+}
+.blog .b .b1 p{
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.blog .b .b1 p:hover{
+    color: red;
+}
+.insta{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.insta h1{
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.insta .i1{
+    width: 20%;
+    height: 300px;
+}
+.insta .i1 img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(202, 202, 202);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .f1{
+    width: 20%;
+    height: 400px;
+}
+footer .f1 h2{
+    font-family: sans-serif;
+
+}
+footer .f1 p{
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-right: 100px;
+    
+}
+footer .f1 .fa-facebook-f{
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+footer .f1 .fa-instagram{
+    font-size: 20px;
+    margin-left: 10px;
+}
+footer .f1 .fa-pinterest-p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+footer .f1 .fa-snapchat{
+    font-size: 20px;
+    margin-left: 10px;
+}
+footer .f1 .fa-youtube{
+    font-size: 20px;
+    margin-left: 10px;
+}
+footer .f1 span{
+    font-family: sans-serif;
+    margin-top: 20px;
+    display: block;
+    
+}
+footer .f1 input{
+    width: 70%;
+    height: 40px;
+    margin-top: 20px;
+}
+footer .f1 button{
+    width: 50%;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+footer .f1 button:hover{
+    background-color: red;
+}

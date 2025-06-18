@@ -1,0 +1,583 @@
+@media(max-width:980px)
+{
+
+ /* ------footer----- */
+
+
+    footer{
+        width: 100%;
+        height: auto;
+        /* flex-direction: column; */
+
+    }
+/* --------insta------ */
+
+    .insta .i1{
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .insta{
+        width: 100%;
+        height: auto;
+    }
+
+/* --------blog------ */
+
+    .blog .b{
+        width: 100%;
+        height: auto;
+        /* flex-direction: column; */
+    }
+
+    .blog{
+        width: 100%;
+        height: auto;
+    }
+
+/*------- look------ */
+
+    .look .lb .lb2{
+        width: 100%;
+        height: auto;
+    }
+
+    .look .lb .lb1{
+        width: 100%;
+        height: auto;
+    }
+
+    .look .lb{
+        width: 100%;
+        height: auto;
+    }
+    .look{
+        width: 100%;
+        height: auto;
+    }
+
+/* -------future product----- */
+
+    .fp .fproduct .fp1{
+        width: 100%;
+        height: auto;
+    } 
+
+    .fp .fproduct{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .fp{
+        width: 100%;
+        height: auto;
+    }
+
+/* -------product------- */
+
+
+    .product .pro .pro3 .p2 button{
+        position: absolute;
+        left: 33%;
+    }
+
+    .product .pro .pro3{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .product .pro .pro2{
+        width: 100%;
+        height: auto;
+    }
+
+    .product .pro .pro1{
+        width: 100%;
+        height: auto;
+    }
+
+    .product .pro{
+        width: 100%;
+        height: auto;
+        /* flex-direction: column; */
+    }
+
+    .product{
+        width: 100%;
+        height: auto;
+    }
+
+/*-------- home------ */
+
+    .home button{
+        width: 15%;
+        height: 30px;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        font-size: 10px;
+    }
+
+    .home h1{
+        font-size: 20px;
+        position: absolute;
+        top: 35%;
+        left: 35%;
+        font-size: 35px;
+    }
+
+    .home h3{
+        font-size: 10px;
+        position: absolute;
+        top: 25%;
+        left: 40%;
+        font-size: 15px;
+        /* margin-right: 200px; */
+    }
+
+   .home{
+    width: 100%;
+    height: auto;
+    position: relative;
+   } 
+
+/* ---------header------- */
+
+header .icon{
+    width: 30%;
+    height: auto;
+    font-size: 20px;
+}
+
+header nav ul li a{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+
+header nav{
+    width: 100%;
+    height: auto;
+}
+
+header .logo{
+    width: 30%;
+    height: auto;
+}
+
+header{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+}
+
+
+
+@media(max-width:720px)
+{
+
+/* ------footer----- */
+
+    footer .f1{
+        width: 100%;
+        height: auto;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+    }
+
+/* --------insta------ */
+
+    .insta .i1{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .insta{
+        width: 100%;
+        height: auto;
+    }
+
+/* --------blog------ */
+
+    .blog .b .b1{
+        width: 100%;
+        height: auto;
+    }
+
+    .blog .b{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .blog{
+        width: 100%;
+        height: auto;
+    }
+
+/*------- look----- */
+
+    .look .lb .lb2 h4{
+        position: absolute;
+        left: 47%;
+    }
+
+    .look .lb .lb2 h3{
+        position: absolute;
+        left: 32%;
+    }
+
+    .look .lb .lb2{
+        width: 100%;
+        height: auto;
+    }
+
+    .look .lb .lb1 h2{
+        position: absolute;
+        left: 32%;
+    }
+
+    .look .lb .lb1 h3{
+        position: absolute;
+        left: 40%;
+    }
+
+    .look .lb .lb1{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .look .lb{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .look{
+        width: 100%;
+        height: auto;
+    }
+    
+/* -------future product----- */
+
+    .fp .fproduct .fp1{
+        width: 100%;
+        height: auto;
+    } 
+
+    .fp .fproduct{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .fp{
+        width: 100%;
+        height: auto;
+    }
+
+/* -------product------- */
+
+
+    .product .pro .pro3 .p2 button{
+        position: absolute;
+        left: 33%;
+    }
+
+    .product .pro .pro3 .p2 p{
+        font-size: 20px;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+    }
+
+    .product .pro .pro3 .p2 h1{
+        font-size: 30px;
+        position: absolute;
+        left: 35%;
+    }
+
+    .product .pro .pro3{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .product .pro .pro2{
+        width: 100%;
+        height: auto;
+    }
+
+    .product .pro .pro1{
+        width: 100%;
+        height: auto;
+    }
+
+    .product .pro{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .product{
+        width: 100%;
+        height: auto;
+    }
+
+/*-------- home------ */
+
+    .home button{
+        width: 20%;
+        height: 30px;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        font-size: 10px;
+    }
+
+    .home h1{
+        font-size: 20px;
+        position: absolute;
+        top: 35%;
+        left: 37%;
+        font-size: 25px;
+    }
+
+    .home h3{
+        font-size: 10px;
+        position: absolute;
+        top: 25%;
+        left: 40%;
+        font-size: 13px;
+        /* margin-right: 200px; */
+    }
+
+   .home{
+    width: 100%;
+    height: auto;
+    position: relative;
+   } 
+
+/* ---------header------- */
+
+header .icon{
+    width: 30%;
+    height: auto;
+    font-size: 20px;
+}
+
+header nav ul li a{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+
+header nav{
+    width: 100%;
+    height: auto;
+}
+
+header .logo{
+    width: 30%;
+    height: auto;
+}
+
+header{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+}
+
+
+
+
+
+
+@media(max-width:480px)
+{
+/* ------footer----- */
+
+    footer .f1{
+        width: 100%;
+        height: auto;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+    }
+
+/* --------insta------ */
+
+    .insta .i1{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .insta{
+        width: 100%;
+        height: auto;
+    }
+
+/* --------blog------ */
+
+    .blog .b .b1{
+        width: 100%;
+        height: auto;
+    }
+
+    .blog .b{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .blog{
+        width: 100%;
+        height: auto;
+    }
+
+/*------- look----- */
+
+    .look .lb .lb2{
+        width: 100%;
+        height: auto;
+    }
+
+    .look .lb .lb1{
+        width: 100%;
+        height: auto;
+    }
+
+    .look .lb{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .look{
+        width: 100%;
+        height: auto;
+    }
+
+/* -------future product----- */
+
+    .fp .fproduct .fp1{
+        width: 100%;
+        height: auto;
+    } 
+
+    .fp .fproduct{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .fp{
+        width: 100%;
+        height: auto;
+    }
+
+/* -------product------- */
+
+    .product .pro .pro3{
+        width: 100%;
+        height: auto;
+    }
+
+    .product .pro .pro2{
+        width: 100%;
+        height: auto;
+    }
+
+    .product .pro .pro1{
+        width: 100%;
+        height: auto;
+    }
+
+    .product .pro{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .product{
+        width: 100%;
+        height: auto;
+    }
+
+/*-------- home------ */
+
+    .home button{
+        width: 20%;
+        height: 30px;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        font-size: 10px;
+    }
+
+    .home h1{
+        font-size: 20px;
+        position: absolute;
+        top: 30%;
+        left: 35%;
+    }
+
+    .home h3{
+        font-size: 10px;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        /* margin-right: 200px; */
+    }
+
+   .home{
+    width: 100%;
+    height: auto;
+    position: relative;
+   } 
+
+/* ---------header------- */
+
+header .icon{
+    width: 30%;
+    height: auto;
+    font-size: 20px;
+}
+
+header nav ul li a{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+}
+
+header nav{
+    width: 100%;
+    height: auto;
+}
+
+header .logo{
+    width: 30%;
+    height: auto;
+}
+
+header{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+}
