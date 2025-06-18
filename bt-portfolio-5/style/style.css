@@ -1,0 +1,66 @@
+#header{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: rgb(48, 48, 48);
+}
+#home{
+    height: 650px;
+}
+
+.img{
+    width: 350px;
+    height: 350px;
+    border: 1px solid;
+    border-radius: 50%;
+    background: url('../image/IMG_20231128_172047_746\ \(2\).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 130px;
+    margin-left: 80px;
+
+}
+#hline{
+    margin-top: 55px;
+}
+#about{
+    margin-top: 100px;
+}
+#p{
+    word-spacing: 2px;
+    font-size: 20px;
+}
+#info{
+    height: 500px;
+    margin-top: 150px;
+}
+#information{
+    margin-top: 130px;
+}
+#photo{
+    height: 600px;
+}
+#photo{
+    background-image: url('../image/IMG_20240108_101930_992\ \(2\).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#counter{
+    margin-top: 150px;
+    height: 200px;
+}
+#conterup .counter{
+    margin-top: 50px;
+}
+#contact{
+    margin-top: 150px;
+}
+#footer{
+    margin-top: 100px;
+}
+#button1{
+    margin-left: 600px;
+    margin-top: 50px;
+}
