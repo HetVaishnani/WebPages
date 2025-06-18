@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav{
+    width: 60%;
+    height: 100%;
+}
+header nav ul{
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.home{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home .h1{
+    width: 50%;
+    height: 600px;
+    
+}
+.home .h1 img{
+    width: 100%;
+    height: 100%;
+
+}
+.home .h2{
+    width: 50%;
+    height: 600px;
+    background-color: yellow;
+    text-align: center;
+}
+.home .h2 h1{
+    font-size: 45px;
+    text-align: center;
+    color: #0E1B50;
+    font-family: sans-serif;
+    margin-top: 150px;
+}
+.home .h2 p{
+    font-size: 20px;
+    text-align: center;
+    color: #0E1B50;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.home .h2 button{
+    width: 25%;
+    height: 50px;
+    background-color: #0E1B50;
+    color: white;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 50px;
+    transition: 2s;
+}
+.home .h2 button:hover{
+    background-color: transparent;
+    border:2px solid #0E1B50;
+    color: #0E1B50;
+}
+
+.our{
+    width: 100%;
+    height: 800px;
+    background-color: #E8E7D3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.our .o{
+    width: 90%;
+    height: 700px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.our .o h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: blue;
+}
+.our .o h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    /* color: blue; */
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.our .o .o1{
+    width: 32%;
+    height: 500px;
+}
+.our .o .o1 img{
+    width: 100%;
+}
+.our .o .o1 h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    color: #0E1B50;
+    transition: 2s;
+}
+.our .o .o1 h2:hover{
+    color: red;
+}
+.our .o .o1 p{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    color: #0E1B50;
+    transition: 2s;
+}
+.our .o .o1 p:hover{
+    color: red;
+}
+.we{
+    width: 100%;
+    height: 800px;
+    background-color: #E8E7D3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.we .know{
+    width: 80%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.we .know .we1{
+    width: 50%;
+    height: 600px;
+    position: relative;
+}
+.we .know .we1 .info{
+    width: 30%;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: yellow;
+    text-align: center;
+}
+.we .know .we1 .info h1{
+    font-size: 75px;
+    font-family: sans-serif;
+    color: #0E1B50;
+    margin-top: 10px;
+}
+.we .know .we1 .info h3{
+    font-family: sans-serif;
+    color: #0E1B50;
+}
+.we .know .we1 img{
+    width: 100%;
+    height: 100%;
+}
+.we .know .we2{
+    width: 50%;
+    height: 600px;
+    background-color: white;
+}
+.we .know .we2 h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    color: #0E1B50;
+}
+.we .know .we2 p{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 50px;
+    color: #0E1B50;
+}
+.we .know .we2 button{
+    width: 25%;
+    height: 50px;
+    background-color: #0E1B50;
+    color: white;
+    font-size: 15px;
+    margin-left: 80px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 50px;
+    transition: 2s;
+}
+.we .know .we2 button:hover{
+    background-color: transparent;
+    border:2px solid #0E1B50;
+    color: #0E1B50;
+}
+.satis{
+    width: 100%;
+    height: 800px;
+    background-color: #E8E7D3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.satis .sa{
+    width: 80%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.satis .sa .sa1{
+    width: 50%;
+    height: 600px;
+    position: relative;
+}
+.satis .sa .sa1 h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-top: 100px;
+    color: #0E1B50;
+}
+.satis .sa .sa1 h1:hover{
+    color: red;
+}
+.satis .sa .sa1 p{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    color: #0E1B50;
+    margin-right: 50px;
+}
+.satis .sa .sa1 p:hover{
+    color: red;
+}
+.satis .sa .sa2{
+    width: 50%;
+    height: 600px;
+}
+.satis .sa .sa2 img{
+    width: 100%;
+    height: 100%;
+}
+.image{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image .im1{
+    width: 50%;
+    height: 700px;
+}
+.image .im1 img{
+    width: 100%;
+    height: 100%;
+}
+.expert{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.expert .ex{
+    width: 80%;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.expert .ex h1{
+    width: 100%;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #0E1B50;
+}
+.expert .ex .e1{
+    width: 32%;
+    height: 400px;
+}
+.expert .ex .e1 img{
+    width: 100%;
+}
+.expert .ex .e1 h2{
+    font-family: sans-serif;
+    color: #0E1B50;
+}
+.expert .ex .e1 h2:hover{
+    color: red;
+}
+.expert .ex .e1 h3{
+    font-family: sans-serif;
+    color: #0E1B50;
+    font-weight: lighter;
+    margin-top: 5px ;
+}
+.expert .ex .e1 h3:hover{
+    color: red;
+}
+.get{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.get .g1{
+    width: 40%;
+    height: 200px;
+    background-color: yellow;
+}
+.get .g1 h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #0E1B50;
+    margin-top: 60px;
+}
+.get .g1 p{
+    /* font-size: 30px; */
+    text-align: center;
+    font-family: sans-serif;
+    color: #0E1B50;
+}
+.get .g2{
+    width: 60%;
+    height: 200px;
+    background-color: yellow;
+}
+.get .g2 input{
+    width: 30%;
+    height: 50px;
+    border-radius: 50px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: none;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.get .g2 button{
+    width: 15%;
+    height: 50px;
+    border: 2px solid #0E1B50;
+    color: #0E1B50;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 50px;
+    margin-left: 25px;
+}
+.get .g2 button:hover{
+    color: white;
+    background-color: blue;
+}
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #0E1B50;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .foot{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+footer .foot .f1{
+    width: 32%;
+    height: 350px;
+}
+footer .foot .f1 p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-right: 25px;
+
+}
+footer .foot .f1 h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white;
+}
+footer .foot .f1 span{
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+footer .foot .f1 h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 20px;
+    color: yellow;
+}

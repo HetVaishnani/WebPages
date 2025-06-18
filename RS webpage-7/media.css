@@ -1,0 +1,561 @@
+@media(max-width:980px)
+{
+
+/* -------footer------ */
+
+    footer{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    footer .foot{
+        width: 100%;
+        height: auto;
+        /* flex-direction: column; */
+    }
+
+/* --------get------ */
+
+    .get{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .get .g1{
+        width: 100%;
+        height: auto;
+    }
+
+    .get .g2{
+        width: 100%;
+        height: auto;
+    }
+
+/* --------expert------- */
+
+    .expert{
+        width: 100%;
+        height: auto;
+    }
+
+    .expert .ex{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        /* flex-direction: column; */
+    }
+
+    .expert .ex .e1{
+       margin-top: 10px;
+    } 
+
+/*----------- image-------- */
+
+    .image{
+        width: 100%;
+        height: auto;
+        /* flex-direction: column; */
+
+    }
+    .image .im1{
+        width: 100%;
+        height: auto;
+    }
+    .image .im1 img{
+        width: 100%;
+        height: auto;
+    }
+
+/*-------- satis------ */
+
+    .satis{
+        width: 100%;
+        height: auto;
+    }
+    .satis .sa{
+        width: 100%;
+        height: auto;
+        /* flex-direction: column; */
+    }
+   
+
+/*------ weknow------ */
+
+    .we{
+        width: 100%;
+        height: auto;
+    }
+
+    .we .know{
+        width: 100%;
+        height: auto;
+        /* flex-direction: column; */
+    }
+
+/*------ our------*/
+
+    .our{
+        width: 100%;
+        height: auto;
+    }
+
+    .our .o{
+        /* flex-direction: column;s */
+        width: 100%;
+        height: auto;
+    }
+    
+    .our .o h3{
+        width: 100%;
+        font-size: 20px;
+        
+    }
+    
+/* ------home----- */
+
+    .home{
+        width: 100%;
+        height: auto;   
+    }
+
+
+/* -------header------ */
+
+    header{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    header .logo{
+        width: 70%;
+        height: auto;
+    }
+    header nav{
+        width: 100%;
+        height: auto;
+    }
+    header nav ul li a{
+        font-size: 25px;
+    }
+    
+}
+
+
+@media(max-width:720px)
+{
+/* -------footer------ */
+
+    footer{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    footer .foot{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    footer .foot .f1{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-top: 10px;
+    }
+
+/* --------get------ */
+
+    .get{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .get .g1{
+        width: 100%;
+        height: auto;
+    }
+
+    .get .g2{
+        width: 100%;
+        height: auto;
+    }
+
+/* --------expert------- */
+
+    .expert{
+        width: 100%;
+        height: auto;
+    }
+
+    .expert .ex{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .expert .ex .e1{
+        width: 100%;
+        height: auto;
+    } 
+
+/*----------- image-------- */
+
+    .image{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+    }
+    .image .im1{
+        width: 100%;
+        height: auto;
+    }
+    .image .im1 img{
+        width: 100%;
+        height: auto;
+    }
+
+/*-------- satis------ */
+
+    .satis{
+        width: 100%;
+        height: auto;
+    }
+    .satis .sa{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .satis .sa .sa1{
+        width: 100%;
+        height: auto;
+    }
+
+    .satis .sa .sa2{
+        width: 100%;
+        height: auto;
+    }
+
+/*------ weknow------ */
+
+    .we{
+        width: 100%;
+        height: auto;
+    }
+
+    .we .know{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .we .know .we1{
+        width: 100%;
+        height: auto;
+    }
+
+    .we .know .we2{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .we .know .we2 h1{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        
+    }
+    .we .know .we2 p{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-top: 20px;
+       
+        
+    }
+    .we .know .we2 button{
+        /* width: 100%;
+        height: auto; */
+         margin-left: 0;
+       
+    } 
+
+
+/*------ our------*/
+
+    .our{
+        width: 100%;
+        height: auto;
+    }
+
+    .our .o{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .our .o .o1{
+        width: 100%;
+        height: auto;
+    }
+
+    .our .o h3{
+        font-size: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .our .o h1{
+        font-size: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+/* ------home----- */
+
+    .home{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .home .h1{
+        width: 100%;
+        height: auto;
+    }
+
+    .home .h2{
+        width: 100%;
+        height: auto;
+    }
+
+/* -------header------ */
+
+    header{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    header .logo{
+        width: 70%;
+        height: auto;
+    }
+    header nav{
+        width: 100%;
+        height: auto;
+    }
+    header nav ul li a{
+        font-size: 20px;
+    }
+    
+}
+
+@media(max-width:480px)
+{
+/* -------footer------ */
+
+    footer{
+        width: 100%;
+        height: auto;
+    }
+    footer .foot{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    footer .foot .f1{
+        width: 100%;
+        height: auto;
+    }
+
+/* --------get------ */
+
+    .get{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .get .g1{
+        width: 100%;
+        height: auto;
+    }
+
+    .get .g2{
+        width: 100%;
+        height: auto;
+    }
+
+/* --------expert------- */
+
+    .expert{
+        width: 100%;
+        height: auto;
+    }
+
+    .expert .ex{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .expert .ex .e1{
+        width: 100%;
+        height: auto;
+    }       
+
+/*----------- image-------- */
+
+    .image{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+    }
+    .image .im1{
+        width: 100%;
+        height: auto;
+    }
+    .image .im1 img{
+        width: 100%;
+        height: auto;
+    }
+
+/*-------- satis------ */
+
+    .satis{
+        width: 100%;
+        height: auto;
+    }
+    .satis .sa{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .satis .sa .sa1{
+        width: 100%;
+        height: auto;
+    }
+
+    .satis .sa .sa2{
+        width: 100%;
+        height: auto;
+    }
+
+/*------ weknow------ */
+
+    .we{
+        width: 100%;
+        height: auto;
+    }
+
+    .we .know{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .we .know .we1{
+        width: 100%;
+        height: auto;
+    }
+
+    .we .know .we2{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .we .know .we2 h1{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        
+    }
+    .we .know .we2 p{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        
+    }
+    .we .know .we2 button{
+        /* width: 100%;
+        height: auto; */
+        margin-left: 0;
+       
+    }
+
+
+/*------ our------*/
+
+    .our{
+        width: 100%;
+        height: auto;
+    }
+
+    .our .o{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .our .o .o1{
+        width: 100%;
+        height: auto;
+    }
+
+    .our .o h3{
+        font-size: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .our .o h1{
+        font-size: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+/* ------home----- */
+
+    .home{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .home .h1{
+        width: 100%;
+        height: auto;
+    }
+
+    .home .h2{
+        width: 100%;
+        height: auto;
+    }
+
+/*-------- header------- */
+
+    header{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    header .logo{
+        width: 70%;
+        height: auto;
+    }
+    header nav{
+        width: 100%;
+        height: auto;
+    }
+    header nav ul li a{
+        font-size: 16px;
+    }
+    
+}

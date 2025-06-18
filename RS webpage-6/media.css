@@ -1,0 +1,449 @@
+@media(max-width:980px)
+{
+/* -----footer----- */
+
+    footer .f .f1{
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+    }
+
+    footer .f{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+
+/* --------insta------ */
+
+    .insta .in1{
+        width: 100%;
+        height: auto;
+    }
+
+    .insta{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+/*--------- icon------- */
+
+    .icon .ic .i1{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+    .icon .ic{
+        width: 100%;
+        height: auto;
+    }
+
+    .icon{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+/* -------new arrival----- */
+
+    .new .na .na6{
+        margin-top: 20px;
+    }
+
+    .new .na .na5{
+        margin-top: 20px;
+    }
+
+    .new .na .na4{
+        margin-top: 20px;
+    }
+
+    .new .na .na3{
+        margin-top: 20px;
+    }
+
+    .new .na .na2{
+        margin-top: 20px;
+    }
+
+    .new .na .na1{
+        margin-top: 20px;
+    }
+
+    .new .na{
+        width: 100%;
+        height: auto;
+    }
+
+    .new{
+        width: 100%;
+        height: auto;
+    }
+
+/* --------photo------ */
+
+    .photo .p1{
+        width: 100%;
+        height: auto;
+        flex-direction: column
+    }
+
+    .photo{
+        width: 100%;
+        height: auto;
+    }
+
+ /* -----home------ */
+
+    .home button{
+        width: 20%;
+        height: 50px;
+    }
+
+    .home h1{
+        font-size: 60px;
+    }
+
+    .home h3{
+        font-size: 25px;
+    }
+
+    .home{
+        width: 100%;
+        height: auto;
+    }
+
+/* -------header----- */
+
+    header .icon{
+        width: 20%;
+        height: auto;
+    }
+
+    header nav{
+        width: 100%;
+        height: auto;
+    }
+
+    header .logo{
+        width: 30%;
+        height: auto;
+    }
+
+    header{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media(max-width:720px)
+{
+/* -----footer----- */
+
+    footer .f .f1{
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+    }
+
+    footer .f{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+/* --------insta------ */
+
+    .insta .in1{
+        width: 100%;
+        height: auto;
+    }
+
+    .insta{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+/*--------- icon------- */
+
+    .icon .ic .i1{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .icon .ic{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .icon{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+/* --------new arrival------- */
+
+    .new .na .na6{
+        width: 100%;
+        height: auto;
+    }
+
+    .new .na .na5{
+        width: 100%;
+        height: auto;
+    }
+
+    .new .na .na4{
+        width: 100%;
+        height: auto;
+    }
+
+    .new .na .na3{
+        width: 100%;
+        height: auto;
+    }
+
+    .new .na .na2{
+        width: 100%;
+        height: auto;
+    }
+
+    .new .na .na1{
+        width: 100%;
+        height: auto;
+    }
+    
+    .new .na{
+        flex-direction: column;     
+        width: 100%;
+        height: auto;
+    }
+
+    .new{
+        width: 100%;
+        height: auto;
+    }
+
+/* --------photo------ */
+
+    .photo .p1{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .photo{
+        width: 100%;
+        height: auto;
+    }
+
+/* -----home------ */
+
+    .home button{
+        width: 20%;
+        height: 40px;
+    }
+
+    .home h1{
+        font-size: 40px;
+    }
+
+    .home h3{
+        font-size: 20px;
+    }
+
+    .home{
+        width: 100%;
+        height: auto;
+    }
+
+/* -------header----- */
+
+    header .icon{
+        width: 20%;
+        height: auto;
+    }
+
+    header nav{
+        width: 100%;
+        height: auto;
+    }
+
+    header .logo{
+        width: 30%;
+        height: auto;
+    }
+
+    header{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+@media(max-width:480px)
+{
+/* -----footer----- */
+
+    footer .f .f1{
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+    }
+
+    footer .f{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+    }
+
+/* --------insta------ */
+
+    .insta .in1{
+        width: 100%;
+        height: auto;
+    }
+
+    .insta{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+/*--------- icon------- */
+
+    .icon .ic .i1{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .icon .ic{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .icon{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+/* --------new arrival------- */
+
+    .new .na .na6{
+        width: 100%;
+        height: auto;
+    }
+
+    .new .na .na5{
+        width: 100%;
+        height: auto;
+    }
+
+    .new .na .na4{
+        width: 100%;
+        height: auto;
+    }
+
+    .new .na .na3{
+        width: 100%;
+        height: auto;
+    }
+
+    .new .na .na2{
+        width: 100%;
+        height: auto;
+    }
+
+    .new .na .na1{
+        width: 100%;
+        height: auto;
+    }
+
+    .new .na{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .new{
+        width: 100%;
+        height: auto;
+    }
+
+/* --------photo------ */
+
+    .photo .p1{
+        width: 100%;
+        height: auto;
+    }
+
+    .photo{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+/* -----home------ */
+
+    .home button{
+        width: 20%;
+        height: 30px;
+    }
+
+    .home h1{
+        font-size: 30px;
+    }
+
+    .home h3{
+        font-size: 16px;
+    }
+
+    .home{
+        width: 100%;
+        height: auto;
+    }
+
+/* -----header----- */
+
+    header .icon{
+        width: 20%;
+        height: auto;
+    }
+
+    header nav{
+        width: 100%;
+        height: auto;
+    }
+
+    header .logo{
+        width: 30%;
+        height: auto;
+    }
+
+    header{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+}
