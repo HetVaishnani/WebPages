@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+}
+
+header .logo {
+    width: 25%;
+    height: 120px;
+    background: url(images/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+header .nav {
+    width: 70%;
+    height: 120px;
+    float: right;
+}
+
+header .nav .navu {
+    width: 90%;
+    height: 80px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+header .nav ul {
+    list-style: none;
+    float: left;
+    font-size: 25px;
+    line-height: 80px;
+}
+
+header .nav ul li a {
+    text-decoration: none;
+    padding-left: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    transition: 1s;
+}
+
+header .nav ul li a:hover {
+    color: #03cafc;
+}
+
+section .home {
+    width: 100%;
+    height: 900px;
+    background-color: #f5f6f6;
+}
+
+section .home h1 {
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+
+section .home span {
+    color: #03cafc;
+}
+
+section img {
+    margin-top: 100px;
+}
+
+section .home button {
+    width: 10%;
+    height: 50px;
+    margin-left: 700px;
+    margin-top: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 2s;
+}
+
+section .home button:hover {
+    background-color: #03cafc;
+}
+
+section .about {
+    width: 100%;
+    height: 600px;
+}
+
+section .about .photo {
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+
+section .about .photo img {
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+section .about .info {
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+
+section .info .information {
+    width: 80%;
+    height: 400px;
+    float: left;
+    margin-top: 130px;
+}
+
+section .info .information h1 {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+section .info .information p {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+section .info .information button {
+    width: 25%;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 2s;
+}
+
+section .info .information button:hover {
+    background-color: #03cafc;
+}
+
+section .our {
+    width: 100%;
+    height: 1100px;
+    transition: 2s;
+}
+
+/* section .our:hover{
+    background-color: #03cafc;
+} */
+section .our h1 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+
+section .our .ourglass p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+section .our .g1,
+.g2,
+.g3,
+.g4,
+.g5,
+.g6,
+.g7,
+.g8 {
+    width: 22.5%;
+    height: 350px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 2%;
+    position: relative;
+}
+
+section .our .g1 .price,
+.g2 .price,
+.g3 .price,
+.g4 .price,
+.g5 .price,
+.g6 .price,
+.g7 .price,
+.g8 .price {
+    width: 50%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 90px;
+
+}
+
+section .our .g1 {
+    background: url(images/glass1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section .g1 p,
+.g2 p,
+.g3 p,
+.g4 p,
+.g5 p,
+.g6 p,
+.g7 p,
+.g8 p {
+    /* padding-left: 35px; */
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section .g1 h3,
+.g2 h3,
+.g3 h3,
+.g4 h3,
+.g5 h3,
+.g6 h3,
+.g7 h3,
+.g8 h3 {
+    /* padding-left: 35px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section .our .g2 {
+    background: url(images/glass2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section .our .g3 {
+    background: url(images/glass3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section .our .g4 {
+    background: url(images/glass4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section .our .g5 {
+    background: url(images/glass5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section .our .g6 {
+    background: url(images/glass6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section .our .g7 {
+    background: url(images/glass7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section .our .g8 {
+    background: url(images/glass8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section .our button {
+    width: 15%;
+    height: 60px;
+    margin-top: 50px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 2s;
+}
+
+section .our button:hover {
+    background-color: red;
+}
+
+section .best {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+}
+
+section .best .pic {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+section .best .bestinf {
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: black;
+}
+
+section .best .bestinf h1 {
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+section .best .bestinf p {
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+section .bestinf button {
+    width: 20%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 2s;
+}
+
+section .bestinf button:hover {
+    background-color: #03cafc;
+}
+
+hr {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+section .client {
+    width: 100%;
+    height: 500px;
+    background-color: #03cafc;
+}
+
+section .client .heading {
+    width: 70%;
+    height: 130px;
+    margin-left: 15%;
+    margin-top: 70px;
+}
+
+section .client .heading h1 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section .client .heading p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+section .client .inform {
+    width: 70%;
+    height: 250px;
+    margin-right: 15%;
+    margin-top: 30px;
+    float: right;
+    position: relative;
+}
+
+section .client .inform h1 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+section .client .inform p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+section .client .pho {
+    width: 10%;
+    height: 150px;
+    float: left;
+    margin-top: 75px;
+    margin-left: 150px;
+    position: absolute;
+    background: url(images/our.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section .contact {
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+    background: url(images/google-maps-data-confirms-the-traffic-trends-everybody-expected-151897_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section .contact .from {
+    width: 40%;
+    height: 500px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.contact h2 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #001431;
+    margin-left: 50px;
+}
+
+.contact input {
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #7c7c7d;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #001431;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+}
+
+.contact button {
+    width: 80%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bolder;
+    /* color: white; */
+    background-color: #03cafc;
+    border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: right;
+    margin-top: 50px;
+    margin-right: 70px;
+}
+
+.contact button:hover {
+    background-color: gray;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(40, 39, 39);
+}
+
+footer .icons,
+.icons2,
+.icons3 {
+    width: 25%;
+    height: 170px;
+    float: left;
+    margin-left: 6.25%;
+    margin-top: 130px;
+}
+
+footer .fa-location-dot,
+.icons2 .fa-phone,
+.icons3 .fa-envelope {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 170px;
+}
+
+footer h1 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
