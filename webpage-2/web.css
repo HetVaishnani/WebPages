@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+header{
+    border: 1px solid;
+    height: 130px;
+    padding: 0.5;
+    text-align: right;
+    line-height: 130px;
+    background: url(image/Car-Company-Logo-And-Icon-Design-Graphics-16382241-2-580x399-removebg-preview.png); 
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain; 
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  rgb(33, 29, 29);
+}
+header.a{
+    background-color: black;
+}
+header a{
+    text-decoration: none;
+    margin: 15px;
+    color: red;   
+}
+header .b{
+    font-size: 25px;
+    margin-top: 20px;
+    color: red;
+    font-weight: bold;
+    /* background-color: black; */
+}
+section .c{
+    /* border: 1px solid; */
+    height: 1000px;
+    /* margin-top: 30px; */
+    background: url(image/het.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 200px;
+    padding-top: 120px;
+    font-size: 30px;
+    color: red;     
+}
+section h2{
+    margin-top: 50px;
+    font-size: 35px;
+    color: red;
+}
+section .d{
+    width: 100%;
+    height: 650px;
+    /* border: 1px solid; */
+    /* margin-top: 20px; */
+    background: url(image/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section .imag{
+    width: 40%;
+    height: 500px;
+    /* border: 1px solid; */
+    border-radius: 10%;
+    margin-top: 5%;
+    margin-left:5%;
+    float: left;
+    background: url(image/pngtree-closeup-picture-of-a-classic-car-with-headlights-image_2517078.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;   
+}
+section .pra{
+    width: 40%;
+    height: 500px;
+    /* border: 1px solid; */
+    margin-top: 5%;
+    margin-left: 10%;
+    float: left;    
+}
+section .pra h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+}
+section .pra p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 50px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+}
+section hr{
+    margin-left: 180px;
+}
+.about{
+    width: 100%;
+    height: 750px;
+    border: 1px solid;
+    background-color: rgb(18, 16, 16);
+}
+.about h1{
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
+.about hr{
+    margin-left: 5px;
+}
+.about .a1{
+    width: 20%;
+    height: 250px;
+    /* border: 1px solid; */
+    margin-top: 50px;
+    border-radius: 10%;
+    float: left;
+    margin-left: 4%;
+    background: url(image/a1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .a2{
+    width: 20%;
+    height: 250px;
+    /* border: 1px solid; */
+    margin-top: 50px;
+    border-radius: 10%;
+    float: left;
+    margin-left: 4%;
+    background: url(image/a2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .a3{
+    width: 20%;
+    height: 250px;
+    /* border: 1px solid; */
+    margin-top: 50px;
+    border-radius: 10%;
+    float: left;
+    margin-left: 4%;
+    background: url(image/a3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .a4{
+    width: 20%;
+    height: 250px;
+    /* border: 1px solid; */
+    margin-top: 50px;
+    border-radius: 10%;
+    float: left;
+    margin-left: 4%;
+    background: url(image/a4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .a5{
+    width: 20%;
+    height: 250px;
+    /* border: 1px solid; */
+    margin-top: 50px;
+    border-radius: 10%;
+    float: left;
+    margin-left: 4%;
+    background: url(image/a5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .a6{
+    width: 20%;
+    height: 250px;
+    /* border: 1px solid; */
+    margin-top: 50px;
+    border-radius: 10%;
+    float: left;
+    margin-left: 4%;
+    background: url(image/a6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .a7{
+    width: 20%;
+    height: 250px;
+    /* border: 1px solid; */
+    margin-top: 50px;
+    border-radius: 10%;
+    float: left;
+    margin-left: 4%;
+    background: url(image/a7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .a8{
+    width: 20%;
+    height: 250px;
+    /* border: 1px solid; */
+    margin-top: 50px;
+    border-radius: 10%;
+    float: left;
+    margin-left: 4%;
+    background: url(image/a8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid; */
+    /* border: none; */
+    /* margin-top: 20px; */
+    background: url(image/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.information{
+    width: 30%;
+    height: 500px;
+    /* border: 1px solid; */
+    /* margin-top: 00px; */
+    margin-left: 35%;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info hr{
+    margin-left: 160px;
+}
+.info p{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+.contact{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid; */
+    background: url(image/contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact h2{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 46%;
+}
+.contact input{
+    width: 400px;
+    height: 60px;
+    margin-left: 40%;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid red;
+    display: block;
+}
+.contact input.mes{
+    height: 120px;
+}
+.contact ::placeholder{
+    padding: 20px;
+    font-size: 15px;  
+}
+.contact button{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 48%;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.footer{
+    height: 500px;
+    /* border: 1px solid; */
+    background: url(image/footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: red;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+/* .j{
+    height: 500px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 60px;
+    padding-top: 60px;
+} */
