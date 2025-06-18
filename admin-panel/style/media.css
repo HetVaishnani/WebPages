@@ -1,0 +1,997 @@
+@media(max-width:980px) {
+    aside {
+        display: none;
+        height: auto;
+        z-index: 2;
+        transition: 2s;
+
+    }
+
+    .cls-b{
+        transition: 2s;
+    }
+
+    .close-btn {
+        position: absolute;
+        left: 80px;
+    }
+
+    .hide {
+        display: block;
+        /* transition: 2s; */
+        height: auto;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        position: relative;
+    }
+
+    header .icon {
+        width: 10%;
+        height: auto;
+    }
+
+    header .ico {
+        width: 30%;
+        height: auto;
+    }
+
+    header .info {
+        width: 40%;
+        height: auto;
+    }
+
+    header .info .pro .in h2 {
+        font-size: 17px;
+    }
+
+    header .info .pro .in h3 {
+        font-size: 10px;
+    }
+
+    header .info .pro .pic img {
+        width: 100%;
+        height: auto;
+    }
+
+    .header1 {
+        margin-left: 0px;
+        transition: 2s;
+    }
+
+    .main {
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .main .sec1 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        flex-direction: column;
+
+
+    }
+
+    .main .sec1 .s1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec1 .s2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec1 .s2 .c1 {
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .main .sec1 .s2 .c1 h3 {
+        height: auto;
+        font-size: 16px;
+    }
+
+    .main .sec1 .s2 .c1 h1 {
+        height: auto;
+        font-size: 20px;
+    }
+
+    .main .sec1 .s2 .c1 span {
+        height: auto;
+        font-size: 20px;
+    }
+
+
+    .main .sec2 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .main .sec2 .c2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec3 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .main .sec3 .c1 h1 {
+        font-size: 30px;
+        display: block;
+    }
+
+    .main .sec3 .c1 h4 {
+        font-size: 15px;
+        display: block;
+    }
+
+    .main .sec3 .c1 button {
+        /* display: none; */
+        width: 15%;
+        /* font-size: 10px; */
+    }
+
+    .main .sec3 .c2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec3 .c3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec3 .c3 .b1 span {
+        margin-left: 440px;
+    }
+
+    .main .sec3 .c3 .b1 .fa-bitcoin {
+        margin-left: 465px;
+    }
+
+    .main .sec3 .c3 .b1 .fa-litecoin-sign {
+        margin-left: 465px;
+    }
+
+    .main .sec3 .c3 .b1 .fa-share-nodes {
+        margin-left: 465px;
+    }
+
+
+
+    .main .sec4 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .main .sec4 .c1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec4 .c1 .b1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec4 .c1 .b1 h1 {
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .main .sec4 .c1 .b2 .bb1 h3 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 20px;
+    }
+
+    .main .sec4 .c1 .b2 .bb1 h4 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 25px;
+    }
+
+    .main .sec4 .c1 .b2 .bb4 h3 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 20px;
+    }
+
+    .main .sec4 .c1 .b2 .bb4 .fa-bitcoin {
+        text-align: center;
+        margin-left: 40px;
+        font-size: 25px;
+        margin-top: 30px;
+
+    }
+
+    .main .sec4 .c1 .b2 .bb3 h3 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 20px;
+    }
+
+    .main .sec4 .c1 .b2 .bb2 h4 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 20px;
+    }
+
+    .main .sec4 .c1 .b2 .bb2 h3 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 20px;
+    }
+
+    .main .sec4 .c1 .b2 .bb4 .fa-share-nodes {
+        text-align: center;
+        margin-left: 40px;
+        font-size: 25px;
+        margin-top: 30px;
+
+    }
+
+    .main .sec4 .c1 .b2 .bb4 .fa-litecoin-sign {
+        text-align: center;
+        margin-left: 45px;
+        font-size: 25px;
+        margin-top: 30px;
+
+    }
+
+    .main .sec4 .c1 .b2 .bb3 button {
+        text-align: center;
+        margin-left: 22px;
+        margin-top: 25px;
+        font-size: 17px;
+        width: 70%;
+        height: 25px;
+        background-color: skyblue;
+        color: blue;
+        /* line-height: 80px; */
+    }
+
+    .main .sec4 .c1 .b2 .bb3 .btn {
+        text-align: center;
+        margin-left: 22px;
+        margin-top: 25px;
+        width: 70%;
+        height: 25px;
+        background-color: lightgreen;
+        font-size: 15px;
+        color: green;
+        /* line-height: 80px; */
+    }
+
+    .main .sec4 .c1 .b2 .bb3 h4 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 20px;
+    }
+
+    .main .sec4 .c2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec4 .c2 .bo1 h1 {
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+
+    .main .sec4 .c2 .bo2 h4 {
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    .main .sec4 .c2 .bo2 p {
+        font-size: 16px;
+        font-family: sans-serif;
+        color: gray;
+        margin-left: 20px;
+    }
+
+    .main .sec5 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec5 .c1 {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .main .sec6 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .main .sec6 .d1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec7 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .main .sec7 .d1 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media(max-width:720px) {
+    aside {
+        display: none;
+        height: auto;
+        /* transition: 2s; */
+
+    }
+
+    .hide {
+        display: block;
+        /* transition: 2s; */
+        height: auto;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+
+    }
+
+    header .icon {
+        width: 10%;
+        height: auto;
+    }
+
+    header .ico {
+        width: 30%;
+        height: auto;
+    }
+
+    header .info {
+        width: 40%;
+        height: auto;
+    }
+
+    header .info .pro .in h2 {
+        font-size: 17px;
+    }
+
+    header .info .pro .in h3 {
+        font-size: 10px;
+    }
+
+    header .info .pro .pic img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main {
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .main .sec1 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        flex-direction: column;
+
+
+    }
+
+    .main .sec1 .s1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec1 .s2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec1 .s2 .c1 {
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .main .sec1 .s2 .c1 h3 {
+        height: auto;
+        font-size: 16px;
+    }
+
+    .main .sec1 .s2 .c1 h1 {
+        height: auto;
+        font-size: 20px;
+    }
+
+    .main .sec1 .s2 .c1 span {
+        height: auto;
+        font-size: 20px;
+    }
+
+
+    .main .sec2 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .main .sec2 .c2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec3 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .main .sec3 .c1 h1 {
+        font-size: 30px;
+        display: block;
+    }
+
+    .main .sec3 .c1 h4 {
+        font-size: 15px;
+        display: block;
+    }
+
+    .main .sec3 .c1 button {
+        /* display: none; */
+        width: 15%;
+        font-size: 10px;
+    }
+
+    .main .sec3 .c2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec3 .c3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec3 .c3 .b1 span {
+        margin-left: 310px;
+    }
+
+    .main .sec3 .c3 .b1 .fa-bitcoin {
+        margin-left: 330px;
+    }
+
+    .main .sec3 .c3 .b1 .fa-litecoin-sign {
+        margin-left: 340px;
+    }
+
+    .main .sec3 .c3 .b1 .fa-share-nodes {
+        margin-left: 330px;
+    }
+
+
+
+    .main .sec4 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .main .sec4 .c1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec4 .c1 .b1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec4 .c1 .b1 h1 {
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .main .sec4 .c1 .b2 .bb1 h3 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 15px;
+    }
+
+    .main .sec4 .c1 .b2 .bb1 h4 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 20px;
+    }
+
+    .main .sec4 .c1 .b2 .bb4 h3 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 15px;
+    }
+
+    .main .sec4 .c1 .b2 .bb4 .fa-bitcoin {
+        text-align: center;
+        margin-left: 25px;
+        font-size: 25px;
+        margin-top: 25px;
+
+    }
+
+    .main .sec4 .c1 .b2 .bb3 h3 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 15spx;
+    }
+
+    .main .sec4 .c1 .b2 .bb2 h4 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 15px;
+    }
+
+    .main .sec4 .c1 .b2 .bb2 h3 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 15px;
+    }
+
+    .main .sec4 .c1 .b2 .bb4 .fa-share-nodes {
+        text-align: center;
+        margin-left: 25px;
+        font-size: 25px;
+        margin-top: 25px;
+
+    }
+
+    .main .sec4 .c1 .b2 .bb4 .fa-litecoin-sign {
+        text-align: center;
+        margin-left: 30px;
+        font-size: 25px;
+        margin-top: 25px;
+
+    }
+
+    .main .sec4 .c1 .b2 .bb3 button {
+        text-align: center;
+        margin-left: 17px;
+        margin-top: 25px;
+        font-size: 15px;
+        width: 70%;
+        height: 25px;
+        background-color: skyblue;
+        color: blue;
+        /* line-height: 80px; */
+    }
+
+    .main .sec4 .c1 .b2 .bb3 .btn {
+        text-align: center;
+        margin-left: 17px;
+        margin-top: 25px;
+        width: 70%;
+        height: 25px;
+        background-color: lightgreen;
+        font-size: 15px;
+        color: green;
+        /* line-height: 80px; */
+    }
+
+    .main .sec4 .c1 .b2 .bb3 h4 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 10px;
+    }
+
+    .main .sec4 .c2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec4 .c2 .bo1 h1 {
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+
+    .main .sec4 .c2 .bo2 h4 {
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    .main .sec4 .c2 .bo2 p {
+        font-size: 16px;
+        font-family: sans-serif;
+        color: gray;
+        margin-left: 20px;
+    }
+
+    .main .sec5 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec5 .c1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec6 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .main .sec6 .d1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec7 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .main .sec7 .d1 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media(max-width:480px) {
+    aside {
+        display: none;
+        height: auto;
+        /* transition: 2s; */
+
+    }
+
+    .hide {
+        display: block;
+        /* transition: 2s; */
+        height: auto;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+
+    }
+
+    header .icon {
+        width: 10%;
+        height: auto;
+    }
+
+    header .ico {
+        width: 30%;
+        height: auto;
+    }
+
+    header .info {
+        width: 50%;
+        height: auto;
+    }
+
+    header .info .pro .in h2 {
+        font-size: 16px;
+    }
+
+    header .info .pro .in h3 {
+        font-size: 10px;
+    }
+
+    header .info .pro .pic img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main {
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .main .sec1 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        flex-direction: column;
+
+
+    }
+
+    .main .sec1 .s1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec1 .s2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec1 .s2 .c1 {
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .main .sec1 .s2 .c1 h3 {
+        height: auto;
+        font-size: 16px;
+    }
+
+    .main .sec1 .s2 .c1 h1 {
+        height: auto;
+        font-size: 20px;
+    }
+
+    .main .sec1 .s2 .c1 span {
+        height: auto;
+        font-size: 20px;
+    }
+
+    .main .sec2 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .main .sec2 .c2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec3 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .main .sec3 .c1 h1 {
+        font-size: 25px;
+        display: block;
+    }
+
+    .main .sec3 .c1 h4 {
+        font-size: 12px;
+        display: block;
+    }
+
+    .main .sec3 .c1 button {
+        display: none;
+    }
+
+    .main .sec3 .c2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec3 .c3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec3 .c3 .b1 span {
+        margin-left: 190px;
+    }
+
+    .main .sec3 .c3 .b1 .fa-bitcoin {
+        margin-left: 215px;
+    }
+
+    .main .sec3 .c3 .b1 .fa-litecoin-sign {
+        margin-left: 220px;
+    }
+
+    .main .sec3 .c3 .b1 .fa-share-nodes {
+        margin-left: 215px;
+    }
+
+    .main .sec4 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .main .sec4 .c1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec4 .c1 .b1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec4 .c1 .b1 h1 {
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    /* .main .sec4 .c1 .b2{
+        width: 100%;
+        height: 80px;
+        border: 1px solid;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: sans-serif;
+    } */
+
+    /* .main .sec4 .c1 .b2 .bb1{
+        width: 5%;
+        height: 100%;
+        border: 1px solid;
+    } */
+    .main .sec4 .c1 .b2 .bb1 h3 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 10px;
+    }
+
+    .main .sec4 .c1 .b2 .bb1 h4 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 10px;
+    }
+
+    .main .sec4 .c1 .b2 .bb4 h3 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 10px;
+    }
+
+    .main .sec4 .c1 .b2 .bb4 .fa-bitcoin {
+        text-align: center;
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top: 30px;
+
+    }
+
+    .main .sec4 .c1 .b2 .bb3 h3 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 10px;
+    }
+
+    .main .sec4 .c1 .b2 .bb2 h4 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 10px;
+    }
+
+    .main .sec4 .c1 .b2 .bb2 h3 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 10px;
+    }
+
+    .main .sec4 .c1 .b2 .bb4 .fa-share-nodes {
+        text-align: center;
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top: 30px;
+
+    }
+
+    .main .sec4 .c1 .b2 .bb4 .fa-litecoin-sign {
+        text-align: center;
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top: 30px;
+
+    }
+
+    .main .sec4 .c1 .b2 .bb3 button {
+        text-align: center;
+        margin-left: 12px;
+        margin-top: 25px;
+        font-size: 10px;
+        width: 70%;
+        height: 25px;
+        background-color: skyblue;
+        color: blue;
+        /* line-height: 80px; */
+    }
+
+    .main .sec4 .c1 .b2 .bb3 .btn {
+        text-align: center;
+        margin-left: 12px;
+        margin-top: 25px;
+        width: 70%;
+        height: 25px;
+        background-color: lightgreen;
+        font-size: 10px;
+        color: green;
+        /* line-height: 80px; */
+    }
+
+    .main .sec4 .c1 .b2 .bb3 h4 {
+        text-align: center;
+        line-height: 80px;
+        font-size: 10px;
+    }
+
+    .main .sec4 .c2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec4 .c2 .bo1 h1 {
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+
+    .main .sec4 .c2 .bo2 h4 {
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    .main .sec4 .c2 .bo2 p {
+        font-size: 16px;
+        font-family: sans-serif;
+        color: gray;
+        margin-left: 20px;
+    }
+
+
+    .main .sec5 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec5 .c1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec6 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .main .sec6 .d1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .sec7 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .main .sec7 .d1 {
+        width: 100%;
+        height: auto;
+    }
+}

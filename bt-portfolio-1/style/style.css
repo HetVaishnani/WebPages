@@ -1,0 +1,55 @@
+#nav{
+    color: #8490ff;
+}
+#home{
+    background-color: #f9f9ff;
+}
+#home h4{
+    margin-top: 150px;
+}
+#home .btn{
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    color: white;
+}
+#about .btn{
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    color: white;
+}
+#about h4{
+    margin-top: 80px;
+}
+#ser #web:hover , #deve:hover , #photo:hover, #path:hover , #app:hover ,#graphic:hover{
+    color: #8490ff;
+}
+#conterup{
+    background-color: #8490ff;
+    margin-top: 100px;
+    height: 200px;
+}
+#conterup .counter{
+    margin-top: 20px;
+}
+#client{
+    margin-top: 150px;
+    background-color: #f9f9ff;
+}
+#blog{
+    margin-top: 70px;
+    background-color: #f9f9ff;
+    height: 700px;
+}
+#ad{
+    height: 200px;
+    background-color: #8490ff;
+}
+#ad img{
+    margin-top: 60px;
+}
+#footer{
+    height: 400px;
+    background-color: #04091e;
+    margin-top: 0px;
+}
+#footer .col{
+    margin-top: 70px;
+}
