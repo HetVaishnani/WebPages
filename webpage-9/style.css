@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    background: url(image/hero_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+header sub-header h1{
+    font-size: 40px;
+    padding-left: 85px;
+    padding-top: 30px;
+    color: red;
+    font-style: italic;
+}
+header sub-header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+header .logo{
+    width: 20%;
+    height: 100%;
+}
+header nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav ul{
+    list-style: none;
+    font-size: 30px;
+}
+header nav ul li a{
+    text-decoration: none;
+    padding-left: 50px;
+    color: red;  
+}
+header .parent1{
+    width: 50%;
+    height: 250px;
+    text-align: center;
+}
+header .parent1 h1{
+    font-size: 60px;
+    color: red;
+}
+header .parent1 h2{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header .parent1 button{
+    width: 25%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: red;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right:10px;
+    transition: 2s;
+}
+header .parent1 button:hover{
+    background-color: white;
+    color: red;
+}
+section .visit{
+    width: 100%;
+    height: 600px;
+}
+section .visit .info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 130px;
+
+}
+section .visit h1{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 150px;
+    padding-top: 150px;
+}
+section .visit .info .child1 , .child2 , .child3 , .child4{
+    width: 22%;
+    height: 400px;   
+}
+
+section .visit .info .child1{
+    background: url(image/img_1.jpg);
+    background-repeat: no-repeat;
+}
+section .visit .info .child2{
+    background: url(image/img_2.jpg);
+    background-repeat: no-repeat;
+}
+section .visit .info .child3{
+    background: url(image/img_4.jpg);
+    background-repeat: no-repeat;
+}
+section .visit .info .child4{
+    background: url(image/img_5.jpg);
+    background-repeat: no-repeat;
+}
+section .visit .info h1{
+    margin-top:190px;
+    margin-left: -150px;
+}
+section .information{
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+    text-align: center;
+}
+section .information h3{
+    font-size: 70px;
+    color: red;
+}
+section .information p{
+    font-size: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+section .photo{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section .photo .pic{
+    width: 80%;
+    height: 900px;
+    background: url(image/slider-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+section .blog{
+    width: 100%;
+    height: 800px;
+    margin-top: 50px;
+    background: url(image/round.png);
+}
+section .blog .pra{
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    text-align: center;
+}
+section .blog .pra h4{
+    font-size: 70px;
+}
+section .blog .pra p{
+    font-size: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+section .blog .imge{
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section .blog .imge .image1 , .image2 , .image3{
+    width: 30%;
+    height: 400px;
+}
+section .blog .imge .image1{
+    background: url(image/img_1.jpg);
+    background-repeat: no-repeat;
+}
+section .blog .imge h1{
+    font-size: 25px;
+    margin-top: 340px;
+    text-align: center;
+}
+section .blog .imge .image2{
+    background: url(image/img_2.jpg);
+    background-repeat: no-repeat;
+}
+section .blog .imge h1{
+    font-size: 25px;
+    margin-top: 340px;
+    text-align: center;
+}
+section .blog .imge h1:hover{
+    color: red;
+    cursor: pointer;
+}
+section .blog .imge .image3{
+    background: url(image/img_3.jpg);
+    background-repeat: no-repeat;
+}
+section .blog .imge h1{
+    font-size: 25px;
+    margin-top: 340px;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .div1 , .div2 , .div3 , .div4{
+    width: 22%;
+    height: 400px;
+}
+footer .div1 ul{
+    list-style: none;
+    font-size: 20px;
+    
+}
+footer .div1 ul li{
+    padding-top: 20px;
+}
+footer .div1 ul li a{
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+}
+footer .div1 ul li a:hover{
+    background-color: white;
+    color: red;
+}
+footer .div2 ul{
+    list-style: none;
+    font-size: 20px;
+    
+}
+footer .div2 ul li{
+    padding-top: 20px;
+}
+footer .div2 ul li a{
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+}
+footer .div2 ul li a:hover{
+    background-color: white;
+    color: red;
+}
+footer .div3 p{
+    padding-top: 15px;
+}
+footer .div3 p span{
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+}
+footer .div3 h6{
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+}
+footer .div4 p{
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+}
+footer .div4 input{
+    width: 80%;
+    height: 40px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+footer .div4 input::placeholder{
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+footer button{
+    width: 20%;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 1s;
+}
+footer button:hover{
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,631 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background: rgba(25,26,51,0.7);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .logo{
+    width: 20%;
+    height: 100%;
+}
+header .logo img{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+header nav{
+    width: 60%;
+    height: 120px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 25px;
+}
+header nav ul li a{
+    text-decoration: none;
+    line-height: 120px; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+section .home{
+    width: 100%;
+    height: 600px;
+    background: url(image/h1_hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .home h1{
+    font-size: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff5f13;
+    margin-left: 250px;
+}
+section .home h2{
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff5f13;
+    margin-left: 350px;
+    text-transform: uppercase;
+}
+.our-servise{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.our-servise .servise{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.our-servise .servise h1{
+    width: 100%;
+    height: 25px;
+    font-size: 45px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0e132a;
+}
+.our-servise .servise .e1{
+    width: 30%;
+    height: 450px;
+    text-align: center;   
+}
+.our-servise .servise .e1 img{
+    width: 100%;
+    height: 300px;  
+}
+.our-servise .servise .e1 h2{
+    font-size: 28px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.our-servise .servise .e1 button{
+    width: 35%;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 2s;
+}
+.our-servise .servise .e1 button:hover{
+    background-color: #ff5f13;
+    color: #0e132a;
+    font-weight: bold;
+}
+.our-servise .servise .e2{
+    width: 30%;
+    height: 450px;
+    text-align: center;
+}
+.our-servise .servise .e2 img{
+    width: 100%;
+    height: 300px;  
+}
+.our-servise .servise .e2 h2{
+    font-size: 28px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.our-servise .servise .e2 button{
+    width: 35%;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 2s;
+}
+.our-servise .servise .e2 button:hover{
+    background-color: #ff5f13;
+    color: #0e132a;
+    font-weight: bold;
+}
+.our-servise .servise .e3{
+    width: 30%;
+    height: 450px;
+    text-align: center;
+}
+.our-servise .servise .e3 img{
+    width: 100%;
+    height: 300px;  
+}
+.our-servise .servise .e3 h2{
+    font-size: 28px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.our-servise .servise .e3 button{
+    width: 35%;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 2s;
+}
+.our-servise .servise .e3 button:hover{
+    background-color: #ff5f13;
+    color: #0e132a;
+    font-weight: bold;
+}
+.we-are{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.we-are .information{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.we-are .information .info{
+    width: 45%;
+    height: 100%;
+}
+.we-are .information .info h1{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #0e132a;
+    text-transform: uppercase;
+}
+.we-are .information .info p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0e132a;
+    padding-right: 150px;
+    padding-top: 20px;
+    font-weight: bolder;
+    padding-left: 20px;
+
+}
+.we-are .information .info .d1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 100px;
+    color: #0e132a;
+    font-weight: lighter;
+    padding-top: 30px;
+}
+.we-are .information .info button{
+    width: 25%;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 15px;
+    background-color: #ff5f13;
+    transition: 2s; 
+}
+.we-are .information .info button:hover{
+    background-color: #0e132a;
+    color: #ff5f13;
+    font-weight: bold;
+}
+.we-are .information .pic{
+    width: 45%;
+    height: 100%;
+    position: relative;
+}
+.we-are .information .pic img{
+    width: 100%;
+    height: 100%;
+}
+.we-are .information .pic .d2{
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    background-color: #1f2b7b;
+    border-radius: 20px;
+}
+.we-are .information .pic .d2 h1{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.we-are .information .pic .d2 span{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 60px;
+}
+.project{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project .ourproject{
+    width: 80%;
+    height: 1100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project .ourproject h1{
+    width: 100%;
+    height: 100px;
+    font-size: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0e132a;
+}
+.project .ourproject .f1{
+    width: 30%;
+    height: 450px;
+    text-align: center;
+}
+.project .ourproject .f1 h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.project .ourproject .f1 img{
+    width: 100%;
+    height: 380px;
+}
+.project .ourproject .f2{
+    width: 30%;
+    height: 450px;
+    text-align: center;
+}
+.project .ourproject .f2  h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.project .ourproject .f2 img{
+    width: 100%;
+    height: 380px;
+}
+.project .ourproject .f3{
+    width: 30%;
+    height: 450px;
+    text-align: center;
+}
+.project .ourproject .f3 h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.project .ourproject .f3 img{
+    width: 100%;
+    height: 380px;
+}
+.project .ourproject .f4{
+    width: 30%;
+    height: 450px;
+    text-align: center;
+}
+.project .ourproject .f4 h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.project .ourproject .f4 img{
+    width: 100%;
+    height: 380px;
+}
+.project .ourproject .f5{
+    width: 30%;
+    height: 450px;
+    text-align: center;
+}
+.project .ourproject .f5 h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.project .ourproject .f5 img{
+    width: 100%;
+    height: 380px;
+}
+.project .ourproject .f6{
+    width: 30%;
+    height: 450px;
+    text-align: center;
+}
+.project .ourproject .f6 h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.project .ourproject .f6 img{
+    width: 100%;
+    height: 380px;
+}
+.talk{
+    width: 100%;
+    height: 600px;
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.talk img{
+    width: 100%;
+    height: 100%;
+
+}
+.talk .lets{
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    top: 10%;
+    
+}
+.talk .lets h1{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+.talk .lets p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 350px;
+    font-weight: lighter;
+}
+.talk .lets button{
+    width: 10%;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: #ff5f13;
+    color: white;
+}
+.talk .lets .d3{
+    width: 100%;
+    height: 200px;
+    margin-top: 80px;
+    background: url(image/section-bg3.jpg);
+}
+.talk .lets .d3 span{
+    font-size: 50px;
+    line-height: 200px;
+    padding: 110px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team .ourteam{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.team .ourteam h1{
+    width: 100%;
+    height: 50px;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+}
+.team .ourteam .p1{
+    width: 30%;
+    height: 470px;
+    text-align: center;
+    overflow: hidden;
+}
+.team .ourteam .p1 img{
+    width: 100%;
+    height: 85%;
+    transition: 2s;
+}
+.team .ourteam .p1 img:hover{
+    transform: scale(1.1);
+}
+.team .ourteam .p1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 15px;
+}
+.team .ourteam .p2{
+    width: 30%;
+    height: 470px;
+    text-align: center;
+    overflow: hidden;
+}
+.team .ourteam .p2 img{
+    width: 100%;
+    height: 85%;
+    transition: 2s;
+}
+.team .ourteam .p2 img:hover{
+    transform: scale(1.1);
+}
+.team .ourteam .p2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 15px;
+}
+.team .ourteam .p3{
+    width: 30%;
+    height: 470px;
+    text-align: center;
+    overflow: hidden;
+}
+.team .ourteam .p3 img{
+    width: 100%;
+    height: 85%;
+    transition: 2s;
+}
+.team .ourteam .p3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 15px;
+}
+.team .ourteam .p3 img:hover{
+    transform: scale(1.1);
+}
+.ln{
+    width: 100%;
+    height: 700px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ln .latestnews{
+    width: 65%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ln .latestnews h1{
+    width: 100%;
+    height: 80px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0e132a;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.ln .latestnews .pic1{
+    width: 45%;
+    height: 450px;
+    background-color: #1f2b7b;
+    text-align: center;
+}
+.ln .latestnews .pic1 img{
+    width: 100%;
+    height: 65%;
+}
+.ln .latestnews .pic2{
+    width: 45%;
+    height: 450px;
+    background-color: #1f2b7b;
+    text-align: center;
+}
+.ln .latestnews .pic2 img{
+    width: 100%;
+    height: 65%;
+}
+.ln .latestnews h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 20px;
+}
+.ln .latestnews button{
+    width: 25%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    color: #ff5f13;
+    transition: 2s;
+}
+.ln .latestnews button:hover{
+    background-color: #0e132a;
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0e132a;
+}
+footer .div1{
+    width: 22%;
+    height: 400px;
+}
+footer .div1 p{
+    font-size: 20px;
+    padding-top: 20px;
+    color: white;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer .div2{
+    width: 22%;
+    height: 400px;
+}
+footer .div2 h1{
+    font-family:Arial, Helvetica, sans-serif ;
+    color: white;
+}
+footer .div2 ul{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+
+}
+footer .div2 ul li{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+footer .div2 ul li a{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+
+}
+footer .div3{
+    width: 22%;
+    height: 400px;
+}
+footer .div3 h1{
+    font-family:Arial, Helvetica, sans-serif ;
+    color: white;
+}
+footer .div3 p{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    margin-right: 30px;
+}
+footer .div4{
+    width: 22%;
+    height: 400px;
+}
+footer .div4 img{
+    width: 100%;
+    height: 50%;
+}
