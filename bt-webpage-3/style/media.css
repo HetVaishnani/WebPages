@@ -1,0 +1,62 @@
+@media(max-width:1200px)
+{
+    #at3{
+        margin-left: 200px;
+    }
+}
+
+
+@media(max-width:992px)
+{
+    #at3{
+        margin-left: 230px;
+    }
+}
+
+@media(max-width:768px)
+{
+    #home{
+        width: 100%;
+        height: auto;
+
+    }
+    #hpic{
+        width: 99%;
+        /* background-image: url(/image/h1_hero1.jpg); */
+    }
+    #card{
+        height: auto;
+    }
+}
+
+@media(max-width:576px)
+{
+    #home{
+        width: 100%;
+        height: auto;
+
+    }
+    #hpic{
+        width: 99%;
+        /* background-image: url(/image/h1_hero1.jpg); */
+    }
+    #card{
+        height: auto;
+    }
+}
+
+@media(max-width:480px)
+{
+    #home{
+        width: 100%;
+        height: auto;
+
+    }
+    #hpic{
+        width: 99%;
+        /* background-image: url(/image/h1_hero1.jpg); */
+    }
+    #card{
+        height: auto;
+    }
+}

@@ -1,0 +1,117 @@
+@media(max-width:1200px)
+{
+    .per{
+        margin-left: 160px;
+    }
+}
+
+@media(max-width:992px)
+{
+    .per{
+        margin-left: 130px;
+    }
+}
+
+@media(max-width:768px)
+{
+    #text{
+        margin-left: 100px;
+    }
+    #feature{
+        margin-top: 10px;
+    }
+    #accomplishments{
+        height: auto;
+    }
+    #accomplishments .pic{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #accomplishments .pic .p1{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #accomplishments .pic .p2{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+    .per{
+        margin-left: 85px;
+    }
+}
+
+
+@media(max-width:576px)
+{
+    #text{
+        margin-left: 60px;
+    }
+    #feature{
+        margin-top: 250px;
+    }
+    #accomplishments{
+        height: auto;
+    }
+    #accomplishments .pic{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #accomplishments .pic .p1{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #accomplishments .pic .p2{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+    .per{
+        margin-left: 240px;
+    }
+}
+
+
+@media(max-width:480px)
+{
+    #text{
+        margin-left: 0px;
+    }
+    #counterup{
+        height: auto;
+    }
+    #feature{
+        margin-top: 300px;
+    }
+    #accomplishments{
+        height: auto;
+    }
+    #accomplishments .pic{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #accomplishments .pic .p1{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #accomplishments .pic .p2{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+    .per{
+        margin-left: 200px;
+    }   
+}
