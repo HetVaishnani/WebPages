@@ -1,0 +1,580 @@
+@media(max-width:980px)
+{
+
+    /* -----footer----- */
+
+    footer .footer1{
+        width: 100%;
+        height: auto;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+/*------ promise ------*/
+
+    .promise .wp .pro1 h2{
+        font-size: 25px;
+    }
+
+    .promise .wp{
+        width: 100%;
+        height: auto;
+    }
+
+    .promise{
+        height: auto;
+    }
+
+/* -----more----- */
+
+    .more .dm .dm1{
+        margin-top: 20px;
+    }
+
+    .more .dm{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .more{
+        width: 100%;
+        height: auto;
+    }
+
+        /* -----otb-------  */
+
+        .otb .otb1 button{
+            width: 50%;
+            font-size: 12px;
+        }
+    
+        .otb .otb1 p{
+            font-size: 16px;
+            margin-top: 10px;
+            width: 100%;
+            height: auto;
+            margin-left: 0;
+        }
+    
+        .otb .otb1 h1{
+            font-size: 25px;
+            margin-top: 0;
+            width: 100%;
+            height: auto;
+        }
+    
+        .otb .otb1{
+            width: 30%;
+            height: auto;
+            position: absolute;
+            left: 10%;
+            top: 20%;
+        }
+        .otb img{
+            width: 100%;
+            height: auto;
+        }
+    
+        .otb{
+            width: 100%;
+            height: auto;
+        }
+
+
+ /* -----hot----- */
+
+        .hot{
+            height: auto;  
+            margin-top: 50px; 
+        } 
+        .hot .hot1{
+            height: auto;
+        }
+        .hot .hot1 .h1{
+            width: 100%;
+            height: auto;
+            margin-top: 5px;
+        }
+        .hot h1{
+            width: 100%;
+            font-size: 30px;
+            flex-wrap: wrap;
+        }
+
+
+
+/* -----photo----- */
+
+    .photo .photo1 button{
+        width: 42%;
+    }
+    .photo .photo1{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .photo{
+        height: auto;
+        margin-top: 20px;
+    }
+
+/* -----home----- */
+
+    .home h1{
+        font-size: 16px;
+    }
+    
+    .home h2{
+        font-size: 35px;
+    }
+
+    .home h3{
+        font-size: 30px;
+    }
+
+    .home button{
+        width: 17%;
+        height: 40px;
+        position: absolute;
+        left: 5%;
+    }
+
+    .home img{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .home{
+        width: 100%;
+        height: auto;
+    }
+
+
+/*----- header----- */
+
+        header{
+            flex-direction: column;
+            height: auto;
+        }
+        header .logo{
+            width: 30%;
+            height: auto;
+        }
+        header nav{
+            width: 100%;
+            height: auto;
+        }
+        header nav ul li a{
+            font-size: 17px;
+        }
+        header .icon{
+            width: 50%;
+            height: auto;
+        }
+
+}
+
+
+
+
+@media(max-width:720px)
+{  
+/* -----footer----- */
+    
+    footer .footer1 .f1{
+        width: 100%;
+        height: auto;
+    }
+
+    footer .footer1{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    } 
+
+/*------ promise -----*/
+
+    .promise .wp .pro1{
+        width: 100%;
+        height: auto;
+    }
+
+    .promise .wp{
+        width: 100%;
+        flex-direction: column; 
+        height: auto;
+    }
+
+    .promise{
+        height: auto;
+    }
+
+/* -----more----- */
+
+    .more .dm .dm1{
+        width: 100%;
+        height: auto;
+    }
+    
+    .more .dm p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .more .dm h1{
+        font-size: 30px;
+    }
+    
+    .more .dm{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .more{
+        width: 100%;
+        height: auto;
+    }
+
+    /* -----otb-------  */
+
+    .otb .otb1 button{
+        width: 50%;
+        font-size: 12px;
+    }
+
+    .otb .otb1 p{
+        font-size: 11px;
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .otb .otb1 h1{
+        font-size: 20px;
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .otb .otb1{
+        width: 40%;
+        height: auto;
+        position: absolute;
+        left: 0;
+        top: 20%;
+    }
+    .otb img{
+        width: 100%;
+        height: auto;
+    }
+
+    .otb{
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* -----hot----- */
+
+    .hot{
+        height: auto;  
+        margin-top: 20px; 
+    } 
+    .hot .hot1{
+        flex-direction: column;
+        height: auto;
+    }
+    .hot .hot1 .h1{
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+    }
+    .hot h1{
+        width: 100%;
+        font-size: 30px;
+        flex-wrap: wrap;
+    }
+
+/* -----photo----- */
+
+    .photo .photo1{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .photo{
+        flex-direction: column;
+        height: auto;
+        margin-top: 20px;
+    }
+
+/* -----home----- */
+
+    .home h1{
+        font-size: 16px;
+    }
+    
+    .home h2{
+        font-size: 35px;
+    }
+
+    .home h3{
+        font-size: 30px;
+    }
+
+    .home button{
+        width: 20%;
+        height: 30px;
+        position: absolute;
+        left: 5%;
+    }
+
+    .home img{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .home{
+        width: 100%;
+        height: auto;
+    }
+
+
+/*----- header------ */
+
+        header{
+            flex-direction: column;
+            height: auto;
+        }
+        header .logo{
+            width: 30%;
+            height: auto;
+        }
+        header nav{
+            width: 100%;
+            height: auto;
+        }
+        header nav ul li a{
+            font-size: 17px;
+        }
+        header .icon{
+            width: 50%;
+            height: auto;
+        }
+
+}
+
+
+
+
+@media(max-width:480px)
+{ 
+    
+    /* -----footer----- */
+    
+    footer .footer1 .f1{
+        width: 100%;
+        height: auto;
+    }
+
+    footer .footer1{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }     
+
+/*------ promise -----*/
+
+    .promise .wp .pro1{
+        width: 100%;
+        height: auto;
+    }
+
+    .promise .wp{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .promise{
+        height: auto;
+    }
+
+/* -----more----- */
+
+    .more .dm .dm1{
+        width: 100%;
+        height: auto;
+    }
+    
+    .more .dm p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .more .dm h1{
+        font-size: 30px;
+    }
+    
+    .more .dm{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .more{
+        width: 100%;
+        height: auto;
+    }
+
+/* -----otb-------  */
+
+    .otb .otb1 button{
+        width: 50%;
+        font-size: 12px;
+    }
+
+    .otb .otb1 p{
+        font-size: 11px;
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .otb .otb1 h1{
+        font-size: 20px;
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+        /* margin-bottom: 20px; */
+    }
+
+    .otb .otb1{
+        width: 40%;
+        height: auto;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .otb img{
+        width: 100%;
+        height: auto;
+    }
+
+    .otb{
+        width: 100%;
+        height: auto;
+    }
+
+/* -----hot----- */
+
+    .hot{
+        height: auto;  
+        margin-top: 20px;  
+    } 
+    .hot .hot1{
+        flex-direction: column;
+        height: auto;
+    }
+    .hot .hot1 .h1{
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+    }
+    .hot h1{
+        font-size: 30px;
+    }
+
+
+/* -----photo----- */
+
+    .photo .photo1{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .photo{
+        flex-direction: column;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+/* -----home----- */
+
+    .home h1{
+        font-size: 10px;
+    }
+
+    .home h2{
+        font-size: 30px;
+    }
+
+    .home h3{
+        font-size: 25px;
+    }
+
+    .home button{
+        width: 30%;
+        height: 30px;
+        position: absolute;
+        left: 5%;
+    }
+
+    .home img{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .home{
+        width: 100%;
+        height: auto;
+    }
+
+/*------ header ------*/
+
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+    header .logo{
+        width: 30%;
+        height: auto;
+    }
+    header nav{
+        width: 100%;
+        height: auto;
+    }
+    header nav ul li a{
+        font-size: 17px;
+    }
+    header .icon{
+        width: 50%;
+        height: auto;
+    }
+}

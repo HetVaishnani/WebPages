@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .logo{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .logo img{
+    width: 80%;
+    height: 40%;
+}
+
+header nav{
+    width: 50%;
+    height: 100%;
+
+}
+
+header nav ul{
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+header .icon{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .icon .fa-magnifying-glass{
+    font-size: 25px;
+}
+header .icon .fa-user{
+    font-size: 25px;
+}
+header .icon .fa-star{
+    font-size: 25px;
+}
+header .icon .fa-bag-shopping{
+    font-size: 25px;
+}
+
+.home{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.home img{
+    width: 100%;
+    height: 100%;
+}
+.home h1{
+    position: absolute;
+    top: 45%;
+    font-size: 20px;
+    font-family: sans-serif;
+    left: 5%;
+    color: white;
+    font-weight: bold;
+
+}
+.home h2{
+    position: absolute;
+    top: 50%;
+    font-size: 70px;
+    font-family: sans-serif;
+    left: 5%;
+    color: white;
+    font-weight: bold;
+
+}
+.home h3{
+    position: absolute;
+    top: 62%;
+    font-size: 60px;
+    font-family: sans-serif;
+    left: 5%;
+    color: white;
+    font-weight: bold;
+
+}
+.home button{
+    width: 10%;
+    height: 50px;
+    position: absolute;
+    top: 80%;
+    right: 85%;
+    border-radius: 50px;
+    font-size: 17px;
+    color: black;
+    font-weight: bolder;
+    border: none;
+}
+.photo{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.photo .photo1{
+    width: 30%;
+    height: 300px;
+    position: relative;
+}
+.photo .photo1 img{
+    width: 100%;
+    height: 100%;
+}
+.photo .photo1 button{
+    width: 35%;
+    height: 40px;
+    border-radius: 70px;
+    position: absolute;
+    bottom: 25%;
+    left: 32%;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+}
+
+.hot{
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hot h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+.hot .hot1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hot .hot1 .h1{
+    width: 30%;
+    height: 500px;
+}
+.hot .hot1 .h1 img{
+    width: 100%;
+    height: 85%;
+}
+.hot .hot1 .h1 img:hover{
+    background-color: black;
+}
+.hot .hot1 .h1 h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+.hot .hot1 .h1 h3{
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.otb{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-top: 50px;
+}
+.otb img{
+    width: 100%;
+    height: 100%;
+}
+.otb .otb1{
+    width: 30%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    z-index: 1;
+    text-align: center;
+}
+.otb .otb1 h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.otb .otb1 p{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.otb .otb1 button{
+    width: 35%;
+    height: 40px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.more{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.more .dm{
+    width: 85%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.more .dm h1{
+    width: 100%;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.more .dm p{
+    width: 100%;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+.more .dm .dm1{
+    width: 30%;
+    height: 500px;
+}
+.more .dm .dm1 img{
+    width: 100%;
+    height: 85%;
+}
+.more .dm .dm1 h2{
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.promise{
+    width: 100%;
+    height: 500px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.promise .wp{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.promise .wp h1{
+    width: 100%;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.promise .wp .pro1{
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    /* font-size: 50px; */
+}
+.promise .wp .pro1 .fa-box{
+    font-size: 50px;
+    margin-top: 50px;
+}
+.promise .wp .pro1 h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.promise .wp .pro1 h4{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.promise .wp .pro1 .fa-award{
+    font-size: 50px;
+    margin-top: 50px;
+}
+.promise .wp .pro1 .fa-comments{
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+footer{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(246, 203, 203);
+}
+footer .footer1{
+    width: 95%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .footer1 .f1{
+    width: 20%;
+    height: 400px;
+}
+footer .footer1 .f1 h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+footer .footer1 .f1 p{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    color: gray;
+}
+
+footer .footer1 .f1 input{
+    width: 60%;
+    height: 40px;
+    margin-top: 20px;
+}
+footer .footer1 .f1 span{
+    display: block;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: gray;
+}
+footer .footer1 .f1 .fa-pinterest-p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+footer .footer1 .f1 .fa-facebook{
+    font-size: 20px;
+    margin-top: 20px;
+}
+footer .footer1 .f1 .fa-instagram{
+    font-size: 20px;
+    margin-top: 20px;
+}
+footer .footer1 .f1 .fa-x-twitter{
+    font-size: 20px;
+    margin-top: 20px;
+}
