@@ -1,0 +1,80 @@
+#nm{
+    color: #207561;
+}
+#home{
+    width: 100%;
+    height: 500px;
+}
+#home #ho1{
+    margin-top: 200px;
+}
+#home img{
+    width: 100%;
+    height: 700px;
+}
+#home #btn1{
+    width: 35%;
+    height: 45px;
+    background-color: #207561;
+    border-radius: 50px;
+    
+}
+#home #btn1:hover{
+    background-color: black;
+}
+#services{
+    margin-top: 320px;
+    
+}
+#services #btn2{
+    background-color: #207561;
+    color: white;
+    border: none;
+}
+#s1{
+    transition: 2s;
+}
+#s1:hover{
+    box-shadow: 2px 2px 2px 2px gray;
+
+}
+#about{
+    margin-top: 150px;
+}
+#about #btn4{
+    width: 35%;
+    height: 45px;
+    background-color: #207561;
+    border-radius: 50px;
+    
+}
+#about #btn4:hover{
+    background-color: black;
+}
+#test{
+    height: 450px;
+    margin-top: 50px;
+    background-color: gray;
+}
+#test #pra{
+    margin-top: 70px;
+}
+#contact #btn5{
+    width: 13%;
+    height: 45px;
+    background-color: #207561;
+    border-radius: 50px;
+    margin-left: 320px;
+    
+}
+#contact #btn5:hover{
+    background-color: black;
+}
+footer{
+    height: 400px;
+    background-color: #d6d6d6;
+    margin-top: 50px;
+}
+footer .col{
+    margin-top: 100px;
+}

@@ -1,0 +1,419 @@
+@media(max-width:1200px)
+{
+    #home{
+        width: 100%;
+        height: auto;
+    }
+    #home img{
+        width: 100%;
+        height: auto;
+    }
+    #home #info h5{
+        font-size: 20px;
+        top: 65%;
+        left: 10%;
+    }
+    #home #info h1{
+        font-size: 42px;
+        top: 80%;
+        left:10%;
+    }
+    #home #info p{
+        font-size: 16px;
+        top: 120%;
+        margin-right: 100px;
+        left: 10%;
+    }
+    #home #info button{
+        position: absolute;
+        top: 152%;
+        left: 10%;
+        height: auto;
+        width: 15%;
+        background-color: #ec5b53;
+        font-size: 16px;
+        /* color: #002d5b; */
+    }
+    #home #info #btn2{
+        position: absolute;
+        top: 152%;
+        left:30%;
+        height: auto;
+        width: 15%;
+        background-color: transparent;
+        font-size: 16px;
+        /* color: #002d5b; */
+    }
+    #contact{
+        height: 600px;
+    }
+    #contact #btn3{
+        margin-left: 160px;
+    }
+    
+}
+
+
+@media(max-width:992px)
+{
+    #home{
+        width: 100%;
+        height: auto;
+    }
+    #home img{
+        width: 100%;
+        height: auto;
+    }
+    #home #info h5{
+        font-size: 16px;
+        top: 60%;
+        left: 8%;
+    }
+    #home #info h1{
+        font-size: 32px;
+        top: 70%;
+        left: 8%;
+    }
+    #home #info p{
+        font-size: 12px;
+        top: 100%;
+        margin-right: 100px;
+        left: 8%;
+    }
+    #home #info button{
+        position: absolute;
+        top: 132%;
+        left: 7%;
+        height: auto;
+        width: 15%;
+        background-color: #ec5b53;
+        font-size: 16px;
+        /* color: #002d5b; */
+    }
+    #home #info #btn2{
+        position: absolute;
+        top: 132%;
+        left: 25%;
+        height: auto;
+        width: 15%;
+        background-color: transparent;
+        font-size: 16px;
+        /* color: #002d5b; */
+    }
+    #contact #btn3{
+        margin-left: 135px;
+    }
+    footer{
+        margin-top: 300px;
+    }
+}
+
+
+@media(max-width:768px)
+{
+    #home{
+        width: 100%;
+        height: auto;
+    }
+    #home img{
+        width: 100%;
+        height: auto;
+    }
+    #home #info h5{
+        font-size: 16px;
+        top: 48%;
+        left: 7%;
+    }
+    #home #info h1{
+        font-size: 32px;
+        top: 58%;
+        left: 7%;
+    }
+    #home #info p{
+        font-size: 12px;
+        top: 86%;
+        margin-right: 100px;
+        left: 7%;
+    }
+    #home #info button{
+        position: absolute;
+        top: 112%;
+        left: 7%;
+        height: auto;
+        width: 16%;
+        background-color: #ec5b53;
+        font-size: 10px;
+        /* color: #002d5b; */
+    }
+    #home #info #btn2{
+        position: absolute;
+        top: 112%;
+        left: 25%;
+        height: auto;
+        width: 16%;
+        background-color: transparent;
+        font-size: 10px;
+        /* color: #002d5b; */
+    }
+
+    #get .pic{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #get .pic .p1{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #get .pic .p2{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+    #get .pic .p3{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+    #get .pic2{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #get .pic2 .pp1{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #get .pic2 .pp2{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+    #get .pic2 .pp3{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+    #contact #btn3{
+        margin-left: 100px;
+    }
+    #contact #input,#input1,#input2{
+        margin-right: 70px;
+    }
+    footer{
+        margin-top: 300px;
+    }
+}
+
+
+
+@media(max-width:576px)
+{
+    #home{
+        width: 100%;
+        height: auto;
+    }
+    #home img{
+        width: 100%;
+        height: auto;
+    }
+    #home #info h5{
+        font-size: 10px;
+        top: 41%;
+        left: 5%;
+    }
+    #home #info h1{
+        font-size: 20px;
+        top: 48%;
+        left: 5%;
+    }
+    #home #info p{
+        font-size: 8px;
+        top: 68%;
+        margin-right: 100px;
+        left: 5%;
+    }
+    #home #info button{
+        position: absolute;
+        top: 88%;
+        left: 5%;
+        height: auto;
+        width: 16%;
+        background-color: #ec5b53;
+        font-size: 10px;
+        /* color: #002d5b; */
+    }
+    #home #info #btn2{
+        position: absolute;
+        top: 88%;
+        left: 25%;
+        height: auto;
+        width: 16%;
+        background-color: transparent;
+        font-size: 10px;
+        /* color: #002d5b; */
+    }
+
+    #get .pic{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #get .pic .p1{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #get .pic .p2{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+    #get .pic .p3{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+    #get .pic2{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #get .pic2 .pp1{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #get .pic2 .pp2{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+    #get .pic2 .pp3{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+    #contact #btn3{
+        margin-left: 70px;
+    }
+    #contact #input,#input1,#input2{
+        margin-right: 58px;
+    }
+    footer{
+        margin-top: 300px;
+    }
+}
+
+
+
+@media(max-width:480px)
+{
+    #home{
+        width: 100%;
+        height: auto;
+    }
+    #home img{
+        width: 100%;
+        height: auto;
+    }
+    #home #info h5{
+        font-size: 10px;
+        top: 41%;
+        left: 5%;
+    }
+    #home #info h1{
+        font-size: 20px;
+        top: 48%;
+        left: 5%;
+    }
+    #home #info p{
+        font-size: 8px;
+        top: 68%;
+        margin-right: 100px;
+        left: 5%;
+    }
+    #home #info button{
+        position: absolute;
+        top: 88%;
+        left: 5%;
+        height: auto;
+        width: 16%;
+        background-color: #ec5b53;
+        font-size: 10px;
+        /* color: #002d5b; */
+    }
+    #home #info #btn2{
+        position: absolute;
+        top: 88%;
+        left: 25%;
+        height: auto;
+        width: 16%;
+        background-color: transparent;
+        font-size: 10px;
+        /* color: #002d5b; */
+    }
+    #get .pic{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #get .pic .p1{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #get .pic .p2{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+    #get .pic .p3{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+    #get .pic2{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #get .pic2 .pp1{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #get .pic2 .pp2{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+    #get .pic2 .pp3{
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+    }
+    #contact #btn3{
+        margin-left: 60px;
+    }
+    #contact #input,#input1,#input2{
+        margin-right: 58px;
+    }
+    footer{
+        margin-top: 300px;
+    }
+}

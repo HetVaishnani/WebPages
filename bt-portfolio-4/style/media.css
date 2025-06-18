@@ -1,0 +1,230 @@
+@media(max-width:1200px)
+{ 
+    #home{
+        height: auto;
+        width: 100%;
+    }
+    #home #hp{
+        margin-top: 100px;
+    }
+    #home #hp1{
+        margin-top: 150px; 
+    }
+    #home #hp1 #fo1{
+        font-size: 50px;
+    }
+   
+    #home #hp1 #fo2{
+        font-size: 50px;
+    }
+    #home #hp1 #fo3{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    #home img{
+        height: auto;
+        width: 90%;
+    }
+    #work #wo{
+        margin-left: 0;
+    }
+    #work #btn1{
+        width: 20%;
+    }
+    #client{
+        margin-top: 100px;
+        /* margin-left: 50px; */
+    }
+    #client #test{
+        margin-left: 500px;
+    }
+   
+   
+}
+
+
+@media(max-width:992px)
+{ 
+    #home{
+        height: auto;
+        width: 100%;
+    }
+    #home #hp{
+        margin-top: 50px;
+    }
+    #home #hp1{
+        margin-top: 80px; 
+    }
+    #home #hp1 #fo1{
+        font-size: 50px;
+    }
+   
+    #home #hp1 #fo2{
+        font-size: 50px;
+    }
+    #home #hp1 #fo3{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    #home img{
+        height: auto;
+        width: 80%;
+    }
+    #work #wo{
+        margin-left: 0;
+    }
+    #work #btn1{
+        width: 20%;
+    }
+    #client{
+        margin-top: 100px;
+        /* margin-left: 50px; */
+    }
+    #client #test{
+        margin-left: 400px;
+    }
+    #btn2{
+        width: 30%;
+        /* margin-left: 100px; */
+    }
+    #btn3{
+        width: 30%;
+    }
+   
+   
+}
+
+@media(max-width:768px)
+{ 
+    #home{
+        height: auto;
+        width: 100%;
+    }
+    #home #hp{
+        margin-top: 50px;
+    }
+    #home #hp1{
+        margin-top: 90px; 
+    }
+    #home #hp1 #fo1{
+        font-size: 30px;
+    }
+    #home #hp1 #fo2{
+        font-size: 30px;
+    }
+    #home #hp1 #fo3{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    #home img{
+        height: auto;
+        width: 70%;
+    }
+    #work #wo{
+        margin-left: 0;
+    }
+    #work #btn1{
+        width: 30%;
+    }
+    #client{
+        margin-top: 500px;
+        /* margin-left: 50px; */
+    }
+    #client #test{
+        margin-left: 270px;
+    }
+    footer{
+        height: 650px;
+    }
+    #btn2{
+        width: 30%;
+        margin-left: 100px;
+    }
+    #btn3{
+        width: 30%;
+    }
+   
+}
+
+@media(max-width:576px)
+{ 
+    #home{
+        height: auto;
+        width: 100%;
+    }
+    #home #hp{
+        margin-top: 50px;
+    }
+    #home #hp1{
+        margin-top: 30px;
+    }
+    #home img{
+        height: auto;
+        width: 50%;
+    }
+    #work #wo{
+        margin-left: 0;
+    }
+    #work #btn1{
+        width: 30%;
+    }
+    #client{
+        margin-top: 700px;
+        /* margin-left: 50px; */
+    }
+    #client #test{
+        margin-left: 170px;
+    }
+    footer{
+        height: 650px;
+    }
+    #btn2{
+        width: 30%;
+        margin-left: 70px;
+    }
+    #btn3{
+        width: 30%;
+    }
+   
+}
+
+@media(max-width:480px)
+{ 
+    #home{
+        height: auto;
+        width: 100%;
+    }
+    #home #hp{
+        margin-top: 50px;
+    }
+    #home #hp1{
+        margin-top: 30px;
+    }
+    #home img{
+        height: auto;
+        width: 50%;
+    }
+    #work #wo{
+        margin-left: 0;
+    }
+    #work #btn1{
+        width: 30%;
+    }
+    #client{
+        margin-top: 700px;
+        /* margin-left: 50px; */
+    }
+    #client #test{
+        margin-left: 140px;
+    }
+    footer{
+        height: 600px;
+    }
+    #btn2{
+        width: 30%;
+        margin-left: 50px;
+    }
+    #btn3{
+        width: 30%;
+    }
+}
